@@ -115,7 +115,7 @@ gunzip SRR5177532_variants_filtered.vcf.gz
 4. 实例展示
 
 - SNP
-<img src="C:\Users\86189\Desktop\linux\SNP.png" width="100000px"/>
+<img src="https://github.com/370126/DingHub/blob/main/FIGS/genomics/SNP.png" width="100000px"/>
 
 - INDEL
-<img src="C:\Users\86189\Desktop\linux\INDEL.png">
+<img src="https://github.com/370126/DingHub/blob/main/FIGS/genomics/INDEL.png">
