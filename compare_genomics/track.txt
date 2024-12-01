@@ -1,1 +1,0 @@
-SK1.all_feature.gff	Genes on SK1	ft:gff;bw:100000;lc:blue;lw:4;bc:lightblue;ba:0.5

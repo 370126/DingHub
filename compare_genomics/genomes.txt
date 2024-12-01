@@ -1,5 +1,0 @@
-/home/ubuntu/Desktop/advanced_bioinfo/compare_genomics/SK1.genome.fa	SK1	lw:1.5
-/home/ubuntu/Desktop/advanced_bioinfo/compare_genomics/Y12.genome.fa	Y12	lw:1.5
-/home/ubuntu/Desktop/advanced_bioinfo/compare_genomics/N44.genome.fa	N44	lw:1.5
-
-
