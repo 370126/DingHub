@@ -1,6 +1,6 @@
 # DingHub
 
-This are the coursework exercises for **Advanced Bioinfomatics**, which consist of:
+These are the coursework exercises for **Advanced Bioinfomatics**, which consist of:
 
 1. Genome Assembling, SNP calling, etc.
 
