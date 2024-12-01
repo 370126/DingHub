@@ -163,7 +163,7 @@ plotsr --sr ./SK1_vs_Y12/*.out --sr ./Y12_vs_N44/*.out --genomes genomes.txt  --
 ```
 可视化的结果如下。
 
-![FIG.1](/home/ubuntu/Desktop/advanced_bioinfo/compare_genomics/SK1_Y12_N44.plotsr.png "Fig.1 Compare 3 genomes of S.p. strains")
+![FIG.1](https://github.com/370126/DingHub/blob/main/FIGS/comparitive_genomics/SK1_Y12_N44.plotsr.png "Fig.1 Compare 3 genomes of S.p. strains")
 
 ---
 
