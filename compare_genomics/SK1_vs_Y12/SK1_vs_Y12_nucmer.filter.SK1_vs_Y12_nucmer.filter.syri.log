@@ -1,0 +1,85 @@
+2024-11-23 14:03:11,920 - Reading Coords - INFO - syri:134 - Reading input from .tsv file
+2024-11-23 14:03:11,929 - Reading Coords - INFO - syri:134 - Filtering low-quality alignments (alignment quality < 90, alignment length < 100)
+2024-11-23 14:03:12,011 - syri - INFO - syri:215 - starting
+2024-11-23 14:03:12,012 - syri - INFO - syri:215 - Analysing chromosomes: ['chrI', 'chrII', 'chrIII', 'chrIV', 'chrIX', 'chrV', 'chrVI', 'chrVII', 'chrVIII', 'chrX', 'chrXI', 'chrXII', 'chrXIII', 'chrXIV', 'chrXV', 'chrXVI']
+2024-11-23 14:03:12,042 - syri.chrI - INFO - mapstar:48 - chrI (6, 11)
+2024-11-23 14:03:12,042 - syri.chrI - INFO - mapstar:48 - Identifying Synteny for chromosome chrI
+2024-11-23 14:03:12,051 - syri.chrIII - INFO - mapstar:48 - chrIII (9, 11)
+2024-11-23 14:03:12,051 - syri.chrIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrIII
+2024-11-23 14:03:12,053 - syri.chrII - INFO - mapstar:48 - chrII (9, 11)
+2024-11-23 14:03:12,053 - syri.chrII - INFO - mapstar:48 - Identifying Synteny for chromosome chrII
+2024-11-23 14:03:12,050 - syri.chrIX - INFO - mapstar:48 - chrIX (8, 11)
+2024-11-23 14:03:12,060 - syri.chrIX - INFO - mapstar:48 - Identifying Synteny for chromosome chrIX
+2024-11-23 14:03:12,056 - syri.chrIV - INFO - mapstar:48 - chrIV (22, 11)
+2024-11-23 14:03:12,062 - syri.chrIV - INFO - mapstar:48 - Identifying Synteny for chromosome chrIV
+2024-11-23 14:03:12,066 - syri.chrI - INFO - mapstar:48 - Identifying Inversions for chromosome chrI
+2024-11-23 14:03:12,104 - syri.chrIX - INFO - mapstar:48 - Identifying Inversions for chromosome chrIX
+2024-11-23 14:03:12,108 - syri.chrIX - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIX
+2024-11-23 14:03:12,131 - syri.chrII - INFO - mapstar:48 - Identifying Inversions for chromosome chrII
+2024-11-23 14:03:12,133 - syri.chrIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrIII
+2024-11-23 14:03:12,136 - syri.chrII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrII
+2024-11-23 14:03:12,140 - syri.chrIV - INFO - mapstar:48 - Identifying Inversions for chromosome chrIV
+2024-11-23 14:03:12,154 - syri.chrIV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIV
+2024-11-23 14:03:12,177 - syri.chrV - INFO - mapstar:48 - chrV (16, 11)
+2024-11-23 14:03:12,177 - syri.chrV - INFO - mapstar:48 - Identifying Synteny for chromosome chrV
+2024-11-23 14:03:12,200 - syri.chrVI - INFO - mapstar:48 - chrVI (9, 11)
+2024-11-23 14:03:12,200 - syri.chrVI - INFO - mapstar:48 - Identifying Synteny for chromosome chrVI
+2024-11-23 14:03:12,201 - syri.chrV - INFO - mapstar:48 - Identifying Inversions for chromosome chrV
+2024-11-23 14:03:12,251 - syri.chrVI - INFO - mapstar:48 - Identifying Inversions for chromosome chrVI
+2024-11-23 14:03:12,256 - syri.chrVI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVI
+2024-11-23 14:03:12,259 - syri.chrVII - INFO - mapstar:48 - chrVII (30, 11)
+2024-11-23 14:03:12,259 - syri.chrVII - INFO - mapstar:48 - Identifying Synteny for chromosome chrVII
+2024-11-23 14:03:12,285 - syri.chrVII - INFO - mapstar:48 - Identifying Inversions for chromosome chrVII
+2024-11-23 14:03:12,317 - syri.chrVIII - INFO - mapstar:48 - chrVIII (14, 11)
+2024-11-23 14:03:12,317 - syri.chrVIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrVIII
+2024-11-23 14:03:12,345 - syri.chrVIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrVIII
+2024-11-23 14:03:12,347 - syri.chrVIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVIII
+2024-11-23 14:03:12,422 - syri.chrX - INFO - mapstar:48 - chrX (15, 11)
+2024-11-23 14:03:12,422 - syri.chrX - INFO - mapstar:48 - Identifying Synteny for chromosome chrX
+2024-11-23 14:03:12,446 - syri.chrX - INFO - mapstar:48 - Identifying Inversions for chromosome chrX
+2024-11-23 14:03:13,743 - matplotlib.font_manager - INFO - __init__:1052 - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+2024-11-23 14:03:13,753 - matplotlib.font_manager - INFO - __init__:1052 - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+2024-11-23 14:03:13,760 - matplotlib.font_manager - INFO - __init__:1052 - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+2024-11-23 14:03:13,773 - matplotlib.font_manager - INFO - _load_fontmanager:1584 - generated new fontManager
+2024-11-23 14:03:13,807 - matplotlib.font_manager - INFO - _load_fontmanager:1584 - generated new fontManager
+2024-11-23 14:03:13,836 - matplotlib.font_manager - INFO - __init__:1052 - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+2024-11-23 14:03:13,872 - matplotlib.font_manager - INFO - _load_fontmanager:1584 - generated new fontManager
+2024-11-23 14:03:13,935 - matplotlib.font_manager - INFO - __init__:1052 - Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+2024-11-23 14:03:13,954 - matplotlib.font_manager - INFO - _load_fontmanager:1584 - generated new fontManager
+2024-11-23 14:03:14,024 - matplotlib.font_manager - INFO - _load_fontmanager:1584 - generated new fontManager
+2024-11-23 14:03:14,351 - syri.chrIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIII
+2024-11-23 14:03:14,392 - syri.chrX - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrX
+2024-11-23 14:03:14,419 - syri.chrV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrV
+2024-11-23 14:03:14,437 - syri.chrXI - INFO - mapstar:48 - chrXI (12, 11)
+2024-11-23 14:03:14,437 - syri.chrXI - INFO - mapstar:48 - Identifying Synteny for chromosome chrXI
+2024-11-23 14:03:14,474 - syri.chrVII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVII
+2024-11-23 14:03:14,477 - syri.chrXII - INFO - mapstar:48 - chrXII (16, 11)
+2024-11-23 14:03:14,478 - syri.chrXII - INFO - mapstar:48 - Identifying Synteny for chromosome chrXII
+2024-11-23 14:03:14,509 - syri.chrXI - INFO - mapstar:48 - Identifying Inversions for chromosome chrXI
+2024-11-23 14:03:14,518 - syri.chrXIII - INFO - mapstar:48 - chrXIII (16, 11)
+2024-11-23 14:03:14,518 - syri.chrXIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrXIII
+2024-11-23 14:03:14,536 - syri.chrXII - INFO - mapstar:48 - Identifying Inversions for chromosome chrXII
+2024-11-23 14:03:14,567 - syri.chrXI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXI
+2024-11-23 14:03:14,603 - syri.chrXIV - INFO - mapstar:48 - chrXIV (11, 11)
+2024-11-23 14:03:14,608 - syri.chrXIV - INFO - mapstar:48 - Identifying Synteny for chromosome chrXIV
+2024-11-23 14:03:14,607 - syri.chrXIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrXIII
+2024-11-23 14:03:14,617 - syri.chrXIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXIII
+2024-11-23 14:03:14,643 - syri.chrI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrI
+2024-11-23 14:03:14,649 - syri.chrXII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXII
+2024-11-23 14:03:14,687 - syri.chrXV - INFO - mapstar:48 - chrXV (19, 11)
+2024-11-23 14:03:14,688 - syri.chrXV - INFO - mapstar:48 - Identifying Synteny for chromosome chrXV
+2024-11-23 14:03:14,711 - syri.chrXIV - INFO - mapstar:48 - Identifying Inversions for chromosome chrXIV
+2024-11-23 14:03:14,720 - syri.chrXVI - INFO - mapstar:48 - chrXVI (14, 11)
+2024-11-23 14:03:14,731 - syri.chrXVI - INFO - mapstar:48 - Identifying Synteny for chromosome chrXVI
+2024-11-23 14:03:14,740 - syri.chrXV - INFO - mapstar:48 - Identifying Inversions for chromosome chrXV
+2024-11-23 14:03:14,783 - syri.chrXV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXV
+2024-11-23 14:03:14,815 - syri.chrXVI - INFO - mapstar:48 - Identifying Inversions for chromosome chrXVI
+2024-11-23 14:03:14,817 - syri.chrXIV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXIV
+2024-11-23 14:03:14,817 - syri.chrXVI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXVI
+2024-11-23 14:03:14,879 - getCTX - INFO - syri:215 - Identifying cross-chromosomal translocation and duplication for chromosome2024-11-23 14:03:14.879193
+2024-11-23 14:03:16,862 - local_variation - INFO - syri:226 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2024-11-23 14:03:17,603 - local_variation - INFO - syri:246 - Finding SNPs and small indels
+2024-11-23 14:03:21,394 - local_variation - INFO - syri:258 - Combining outputs
+2024-11-23 14:03:21,427 - local_variation - INFO - syri:263 - Generating table output
+2024-11-23 14:03:24,045 - local_variation - INFO - syri:268 - Generating VCF
+2024-11-23 14:03:24,652 - local_variation - INFO - syri:276 - Finished syri

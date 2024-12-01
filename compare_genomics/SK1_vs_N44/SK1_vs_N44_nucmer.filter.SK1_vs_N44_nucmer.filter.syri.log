@@ -1,0 +1,79 @@
+2024-11-23 14:06:03,630 - Reading Coords - INFO - syri:134 - Reading input from .tsv file
+2024-11-23 14:06:03,676 - Reading Coords - INFO - syri:134 - Filtering low-quality alignments (alignment quality < 90, alignment length < 100)
+2024-11-23 14:06:03,752 - syri - INFO - syri:215 - starting
+2024-11-23 14:06:03,752 - syri - INFO - syri:215 - Analysing chromosomes: ['chrI', 'chrII', 'chrIII', 'chrIV', 'chrIX', 'chrV', 'chrVI', 'chrVII', 'chrVIII', 'chrX', 'chrXI', 'chrXII', 'chrXIII', 'chrXIV', 'chrXV', 'chrXVI']
+2024-11-23 14:06:03,776 - syri.chrII - INFO - mapstar:48 - chrII (16, 11)
+2024-11-23 14:06:03,776 - syri.chrII - INFO - mapstar:48 - Identifying Synteny for chromosome chrII
+2024-11-23 14:06:03,788 - syri.chrI - INFO - mapstar:48 - chrI (4, 11)
+2024-11-23 14:06:03,788 - syri.chrI - INFO - mapstar:48 - Identifying Synteny for chromosome chrI
+2024-11-23 14:06:03,789 - syri.chrIII - INFO - mapstar:48 - chrIII (9, 11)
+2024-11-23 14:06:03,790 - syri.chrIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrIII
+2024-11-23 14:06:03,803 - syri.chrIV - INFO - mapstar:48 - chrIV (31, 11)
+2024-11-23 14:06:03,803 - syri.chrIV - INFO - mapstar:48 - Identifying Synteny for chromosome chrIV
+2024-11-23 14:06:03,814 - syri.chrI - INFO - mapstar:48 - Identifying Inversions for chromosome chrI
+2024-11-23 14:06:03,814 - syri.chrIX - INFO - mapstar:48 - chrIX (11, 11)
+2024-11-23 14:06:03,815 - syri.chrIX - INFO - mapstar:48 - Identifying Synteny for chromosome chrIX
+2024-11-23 14:06:03,816 - syri.chrI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrI
+2024-11-23 14:06:03,839 - syri.chrV - INFO - mapstar:48 - chrV (19, 11)
+2024-11-23 14:06:03,839 - syri.chrV - INFO - mapstar:48 - Identifying Synteny for chromosome chrV
+2024-11-23 14:06:03,856 - syri.chrV - INFO - mapstar:48 - Identifying Inversions for chromosome chrV
+2024-11-23 14:06:03,876 - syri.chrII - INFO - mapstar:48 - Identifying Inversions for chromosome chrII
+2024-11-23 14:06:03,884 - syri.chrIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrIII
+2024-11-23 14:06:03,892 - syri.chrIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIII
+2024-11-23 14:06:03,897 - syri.chrIX - INFO - mapstar:48 - Identifying Inversions for chromosome chrIX
+2024-11-23 14:06:03,906 - syri.chrIX - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIX
+2024-11-23 14:06:03,907 - syri.chrIV - INFO - mapstar:48 - Identifying Inversions for chromosome chrIV
+2024-11-23 14:06:04,008 - syri.chrVI - INFO - mapstar:48 - chrVI (8, 11)
+2024-11-23 14:06:04,008 - syri.chrVI - INFO - mapstar:48 - Identifying Synteny for chromosome chrVI
+2024-11-23 14:06:04,057 - syri.chrVI - INFO - mapstar:48 - Identifying Inversions for chromosome chrVI
+2024-11-23 14:06:04,059 - syri.chrVII - INFO - mapstar:48 - chrVII (25, 11)
+2024-11-23 14:06:04,059 - syri.chrVII - INFO - mapstar:48 - Identifying Synteny for chromosome chrVII
+2024-11-23 14:06:04,103 - syri.chrVII - INFO - mapstar:48 - Identifying Inversions for chromosome chrVII
+2024-11-23 14:06:04,617 - syri.chrV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrV
+2024-11-23 14:06:04,676 - syri.chrII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrII
+2024-11-23 14:06:04,729 - syri.chrIV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrIV
+2024-11-23 14:06:04,756 - syri.chrVIII - INFO - mapstar:48 - chrVIII (11, 11)
+2024-11-23 14:06:04,756 - syri.chrVIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrVIII
+2024-11-23 14:06:04,773 - syri.chrVII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVII
+2024-11-23 14:06:04,850 - syri.chrVIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrVIII
+2024-11-23 14:06:04,873 - syri.chrXI - INFO - mapstar:48 - chrXI (12, 11)
+2024-11-23 14:06:04,874 - syri.chrXI - INFO - mapstar:48 - Identifying Synteny for chromosome chrXI
+2024-11-23 14:06:04,876 - syri.chrX - INFO - mapstar:48 - chrX (11, 11)
+2024-11-23 14:06:04,876 - syri.chrX - INFO - mapstar:48 - Identifying Synteny for chromosome chrX
+2024-11-23 14:06:04,924 - syri.chrXI - INFO - mapstar:48 - Identifying Inversions for chromosome chrXI
+2024-11-23 14:06:04,946 - syri.chrXII - INFO - mapstar:48 - chrXII (19, 11)
+2024-11-23 14:06:04,946 - syri.chrXII - INFO - mapstar:48 - Identifying Synteny for chromosome chrXII
+2024-11-23 14:06:04,950 - syri.chrVIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVIII
+2024-11-23 14:06:04,972 - syri.chrX - INFO - mapstar:48 - Identifying Inversions for chromosome chrX
+2024-11-23 14:06:04,988 - syri.chrXI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXI
+2024-11-23 14:06:05,012 - syri.chrXII - INFO - mapstar:48 - Identifying Inversions for chromosome chrXII
+2024-11-23 14:06:05,014 - syri.chrVI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrVI
+2024-11-23 14:06:05,096 - syri.chrX - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrX
+2024-11-23 14:06:05,105 - syri.chrXIII - INFO - mapstar:48 - chrXIII (14, 11)
+2024-11-23 14:06:05,108 - syri.chrXIII - INFO - mapstar:48 - Identifying Synteny for chromosome chrXIII
+2024-11-23 14:06:05,134 - syri.chrXIV - INFO - mapstar:48 - chrXIV (19, 11)
+2024-11-23 14:06:05,134 - syri.chrXIV - INFO - mapstar:48 - Identifying Synteny for chromosome chrXIV
+2024-11-23 14:06:05,150 - syri.chrXII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXII
+2024-11-23 14:06:05,169 - syri.chrXIII - INFO - mapstar:48 - Identifying Inversions for chromosome chrXIII
+2024-11-23 14:06:05,190 - syri.chrXV - INFO - mapstar:48 - chrXV (17, 11)
+2024-11-23 14:06:05,191 - syri.chrXV - INFO - mapstar:48 - Identifying Synteny for chromosome chrXV
+2024-11-23 14:06:05,210 - syri.chrXIV - INFO - mapstar:48 - Identifying Inversions for chromosome chrXIV
+2024-11-23 14:06:05,225 - syri.chrXVI - INFO - mapstar:48 - chrXVI (15, 11)
+2024-11-23 14:06:05,225 - syri.chrXVI - INFO - mapstar:48 - Identifying Synteny for chromosome chrXVI
+2024-11-23 14:06:05,271 - syri.chrXV - INFO - mapstar:48 - Identifying Inversions for chromosome chrXV
+2024-11-23 14:06:05,272 - syri.chrXIII - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXIII
+2024-11-23 14:06:05,273 - syri.chrXV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXV
+2024-11-23 14:06:05,330 - syri.chrXIV - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXIV
+2024-11-23 14:06:05,332 - syri.chrXVI - INFO - mapstar:48 - Identifying Inversions for chromosome chrXVI
+2024-11-23 14:06:05,366 - syri.chrXVI - INFO - mapstar:48 - Identifying translocation and duplication for chromosome chrXVI
+2024-11-23 14:06:05,425 - getCTX - INFO - syri:215 - Identifying cross-chromosomal translocation and duplication for chromosome2024-11-23 14:06:05.425607
+2024-11-23 14:06:05,991 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 0.00637054443359375. iterations remaining 26
+2024-11-23 14:06:06,211 - Brute-force TD identification - INFO - mapstar:48 - Cluster is too big for Brute Force, using randomized-greedy approach
+Time taken for last iteration 0.0002148151397705078. iterations remaining 44
+2024-11-23 14:06:09,315 - local_variation - INFO - syri:226 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2024-11-23 14:06:10,252 - local_variation - INFO - syri:246 - Finding SNPs and small indels
+2024-11-23 14:06:13,285 - local_variation - INFO - syri:258 - Combining outputs
+2024-11-23 14:06:13,286 - local_variation - INFO - syri:263 - Generating table output
+2024-11-23 14:06:17,141 - local_variation - INFO - syri:268 - Generating VCF
+2024-11-23 14:06:17,544 - local_variation - INFO - syri:276 - Finished syri
