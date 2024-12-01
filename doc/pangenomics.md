@@ -179,13 +179,13 @@ odgi stats -i ./out_pggb/*.smooth.final.og -S > ./out_pggb/out_pggb_chrI.fa.smoo
 ```
 
 
-![FIG.2](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/out_pggb/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.lay.draw_multiqc.png "Fig.2 2D visualization of Pangenome")
+![FIG.2](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.lay.draw_multiqc.png "Fig.2 2D visualization of Pangenome")
 
 
-![FIG.3](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/out_pggb/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_multiqc.png "Fig.3 1D visualization of Pangenome")
+![FIG.3](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_multiqc.png "Fig.3 1D visualization of Pangenome")
 
 
-![FIG.4](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/out_pggb/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_O_multiqc.png "Fig.4 0D visualization of Pangenome")
+![FIG.4](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_O_multiqc.png "Fig.4 0D visualization of Pangenome")
 
 
 从上图可以看出，基因组一号染色体的**前$\frac{1}{2}$区段结构变异较大，形成的泛基因组图结构较为复杂**，分叉较多；而在一号染色体**后半部分（除了尾部），不同菌株之间差异较小，形成的泛基因组图结构较简单**。
@@ -202,9 +202,9 @@ vg chunk -x ./out_pggb/out_pggb_chrI.smooth.final.vg -p AIC.asm01.HP0#1#chrI#0:3
 > vg chunk -p path究竟是什么我找了很久没找到:( 报错提示是在xg index里，但我也没有找到相关的xg index <br>不过可以先通过其他参数得到一张图(e.g.通过提取结点 -r 50:55)，在图中的最右边即是各个path的名字。
 
 
-![FIG.5](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/out_vg/out_pggb_chrI.smooth.final.AIC_chrI_450-500_real.png "Fig.5 450:500")
+![FIG.5](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_450-500_real.png "Fig.5 450:500")
 
-![FIG.6](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/out_vg/out_pggb_chrI.smooth.final.AIC_chrI_35450-35500_real.png "Fig.6 35450:35500")
+![FIG.6](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_35450-35500_real.png "Fig.6 35450:35500")
 
 从上两图可以看出，450：500bp的泛基因组图结构明显比35450：35000bp复杂许多，即不同菌株基因组之间差异较大。
 
@@ -240,11 +240,11 @@ panacus-visualize \
 
 ```
 
-![FIG.7](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/chrI_panacus_0_0.png "Fig.7 panacus_1")
+![FIG.7](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_0.png "Fig.7 panacus_1")
 
-![FIG.8](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/chrI_panacus_0_1.png "Fig.8 panacus_2")
+![FIG.8](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_1.png "Fig.8 panacus_2")
 
-![FIG.9](/home/ubuntu/Desktop/advanced_bioinfo/raw_material_pang(副本)/out_chrI/chrI_panacus_0_2.png "Fig.9 panacus_3")
+![FIG.9](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_2.png "Fig.9 panacus_3")
 
 从**Fig.9**可以看出，随着基因组的添加，泛基因组的图结点增加数越来越少。然而，从**Fig.8**曲线拟合得到的$\gamma=0.216$并不是一个很小的数值；这可能是因为不同菌株间差异较大，使得该泛基因组闭合程度尚不很高。
 
