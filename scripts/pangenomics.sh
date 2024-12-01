@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## open the well-prepared environment
 conda active pan_genomics
 mkdir pan_genomics
