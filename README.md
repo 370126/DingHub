@@ -2,7 +2,7 @@
 
 These are the coursework exercises for **Advanced Bioinfomatics**, which consist of:
 
-1. Genome Assembling, SNP calling, etc.
+1. Genomic Variation Detection, SNP calling, etc.
 
 2. Comparitive Genomics, SV calling, etc.
 
