@@ -1,0 +1,8 @@
+2.0     # Temperature
+500     # number of atoms
+0.1     # density
+0.001   # delta t of integrate
+1000   	# MD relaxation steps
+20000   # MD production steps
+10      # MD Sampling steps
+50     # frequency of scaling velocity

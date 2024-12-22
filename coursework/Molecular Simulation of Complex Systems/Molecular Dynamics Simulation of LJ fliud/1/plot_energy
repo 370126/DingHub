@@ -1,0 +1,12 @@
+#!/bin/bash
+gnuplot << 'EOF'
+
+set terminal pngcairo size 800,600 enhanced font 'Arial,10'
+set output 'plot_energy_compare.png'
+set xlabel 'steps'
+set ylabel 'pressure'
+set grid
+
+plot 'plot_ener.txt' using 1:2 with linespoints title 'V-V algorithm: energy v.s. steps', \
+     'plot_ener_eular.txt' using 1:2 with linespoints title 'Eular algorithm: energy v.s. steps'
+EOF

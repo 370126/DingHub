@@ -1,0 +1,7 @@
+set terminal pngcairo size 800,600 enhanced font 'Arial,10'
+set output 'plot.png'
+set xlabel 'steps'
+set ylabel 'pressure'
+set grid
+
+plot 'plot_ener.txt' using 1:2 with linespoints title 'Eular algorithm: pressure v.s. steps'
