@@ -21,6 +21,6 @@ These are the coursework assignments for **Molecular Simulation of Complex Syste
 
 ***Declaration***:
 
-*The C++ scripts in this directory are all provided by [Prof. Hu Jinglei](https://dii.nju.edu.cn/af/be/c8328a176062/page.htm) in class.*
+*The C++ scripts in this directory are all provided by [Prof. Hu Jinglei](https://dii.nju.edu.cn/af/be/c8328a176062/page.htm) in class. Therefore, the .gitattributes file is added to this directory to ensure that the C++ files in the directory are not counted in the language statistics on the home page*
 
 *In the completion of exercises, writing shell scripts to process data and drawings, and modifying some parameters in C++ code are requested, which were completed by me independently.*
