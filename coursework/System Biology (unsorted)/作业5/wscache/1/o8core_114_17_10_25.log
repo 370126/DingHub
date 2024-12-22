@@ -1,0 +1,118 @@
+
+o8core, 2.0.11
+author: Emery Conrad
+build date: Jan 14 2011, 13:23:16
+
+[Tue Apr 23 17:10:25 2024]: creating logfile o8core_114_17_10_25.log
+[Tue Apr 23 17:10:25 2024]: initializing link on port 28472
+[Tue Apr 23 17:10:25 2024]: initializing winsock library
+[Tue Apr 23 17:10:25 2024]: link port is 28472
+[Tue Apr 23 17:10:25 2024]: port 28472 is bound
+[Tue Apr 23 17:10:25 2024]: listening on port 28472
+[Tue Apr 23 17:10:25 2024]: link outfifo: starting thread
+[Tue Apr 23 17:10:25 2024]: link outfifo: thread started
+[Tue Apr 23 17:10:25 2024]: o8core link: starting thread
+[Tue Apr 23 17:10:25 2024]: o8core link: thread started
+[Tue Apr 23 17:10:26 2024]: accepted socket connection on port 4849
+[Tue Apr 23 17:10:26 2024]: link received initialization message, reading in 397 bytes of model text
+[Tue Apr 23 17:10:26 2024]: ignoring o8mi tag in model init
+[Tue Apr 23 17:10:37 2024]: link received run message, reading in 1749 bytes of o8r text
+[Tue Apr 23 17:10:37 2024]: ignoring notes in o8r
+[Tue Apr 23 17:10:37 2024]: ignoring plots in o8r
+[Tue Apr 23 17:10:37 2024]: running...
+[Tue Apr 23 17:10:37 2024]: running a time series
+[Tue Apr 23 17:10:37 2024]: will run for 500 time units, 50000 points
+[Tue Apr 23 17:10:37 2024]: returning 1200024 data bytes to client
+[Tue Apr 23 17:10:37 2024]: run complete (0.044 s)
+[Tue Apr 23 17:10:37 2024]: done running
+[Tue Apr 23 17:10:37 2024]: returning (roughly) 1369 log bytes to client
+[Tue Apr 23 17:10:55 2024]: link received run message, reading in 1827 bytes of o8r text
+[Tue Apr 23 17:10:55 2024]: ignoring notes in o8r
+[Tue Apr 23 17:10:55 2024]: ignoring plots in o8r
+[Tue Apr 23 17:10:55 2024]: running...
+[Tue Apr 23 17:10:55 2024]: running a one parameter bifurcation
+[Tue Apr 23 17:10:55 2024]: ignoring xprops
+[Tue Apr 23 17:10:55 2024]: solving for steady state
+[Tue Apr 23 17:10:55 2024]: trying newton's method
+[Tue Apr 23 17:10:55 2024]: try solving time series
+[Tue Apr 23 17:10:55 2024]: WARNING: time course run didn't find a stable steady state
+[Tue Apr 23 17:10:55 2024]: trying newton's method again to hone in
+[Tue Apr 23 17:10:55 2024]: continuing S
+[Tue Apr 23 17:10:55 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:10:55 2024]: LibAUTO: thread started
+[Tue Apr 23 17:10:55 2024]: LibAUTO run time: 0.043 s
+[Tue Apr 23 17:10:55 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:10:55 2024]: LibAUTO: thread started
+[Tue Apr 23 17:10:55 2024]: LibAUTO run time: 0.078 s
+[Tue Apr 23 17:10:55 2024]: returning 16668 data bytes to client
+[Tue Apr 23 17:10:55 2024]: S took 0.219 seconds (0.219 for actual continuation)
+[Tue Apr 23 17:10:55 2024]: run complete (0.259 s)
+[Tue Apr 23 17:10:55 2024]: done running
+[Tue Apr 23 17:10:55 2024]: returning (roughly) 1244 log bytes to client
+[Tue Apr 23 17:13:10 2024]: link received run message, reading in 1895 bytes of o8r text
+[Tue Apr 23 17:13:10 2024]: ignoring notes in o8r
+[Tue Apr 23 17:13:10 2024]: ignoring plots in o8r
+[Tue Apr 23 17:13:10 2024]: running...
+[Tue Apr 23 17:13:10 2024]: running a two parameter bifurcation
+[Tue Apr 23 17:13:10 2024]: ignoring xprops
+[Tue Apr 23 17:13:10 2024]: WARNING: don't know what to do with tag par, ignoring
+[Tue Apr 23 17:13:10 2024]: starting at label 4
+[Tue Apr 23 17:13:10 2024]: continuing...
+S vs. kd_x[Tue Apr 23 17:13:10 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:13:10 2024]: LibAUTO: thread started
+[Tue Apr 23 17:13:10 2024]: LibAUTO run time: 0.256 s
+[Tue Apr 23 17:13:10 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:13:10 2024]: LibAUTO: thread started
+[Tue Apr 23 17:13:10 2024]: LibAUTO run time: 0.235 s
+[Tue Apr 23 17:13:10 2024]: returning 88000 data bytes to client
+(0.726 seconds) 
+[Tue Apr 23 17:13:10 2024]: run complete (0.726 s)
+[Tue Apr 23 17:13:10 2024]: done running
+[Tue Apr 23 17:13:10 2024]: returning (roughly) 1010 log bytes to client
+[Tue Apr 23 17:14:34 2024]: link received run message, reading in 1790 bytes of o8r text
+[Tue Apr 23 17:14:34 2024]: ignoring notes in o8r
+[Tue Apr 23 17:14:34 2024]: ignoring plots in o8r
+[Tue Apr 23 17:14:34 2024]: running...
+[Tue Apr 23 17:14:34 2024]: running limit cycle continuation
+[Tue Apr 23 17:14:34 2024]: running for par=S, label=4
+[Tue Apr 23 17:14:34 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:14:34 2024]: LibAUTO: thread started
+[Tue Apr 23 17:14:34 2024]: LibAUTO run time: 0.344 s
+[Tue Apr 23 17:14:35 2024]: returning 16860 data bytes to client
+(0.485 seconds) 
+[Tue Apr 23 17:14:35 2024]: run complete (0.485 s)
+[Tue Apr 23 17:14:35 2024]: done running
+[Tue Apr 23 17:14:35 2024]: returning (roughly) 677 log bytes to client
+[Tue Apr 23 17:15:22 2024]: link received run message, reading in 2676 bytes of o8r text
+[Tue Apr 23 17:15:22 2024]: ignoring notes in o8r
+[Tue Apr 23 17:15:22 2024]: ignoring plots in o8r
+[Tue Apr 23 17:15:22 2024]: running...
+[Tue Apr 23 17:15:22 2024]: running a two parameter bifurcation
+[Tue Apr 23 17:15:22 2024]: ignoring xprops
+[Tue Apr 23 17:15:22 2024]: WARNING: don't know what to do with tag par, ignoring
+[Tue Apr 23 17:15:22 2024]: starting at label 4
+[Tue Apr 23 17:15:22 2024]: continuing...
+S vs. kd_x[Tue Apr 23 17:15:22 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:15:22 2024]: LibAUTO: thread started
+[Tue Apr 23 17:15:22 2024]: ERROR: library O8AUTO failure, code 0, at autlib1.cpp:8198
+[Tue Apr 23 17:15:22 2024]: ERROR: external library error
+[Tue Apr 23 17:15:22 2024]: ERROR: O8AUTO exception: we'll continue as if nothing happened.
+[Tue Apr 23 17:15:22 2024]: LibAUTO run time: 0.042 s
+[Tue Apr 23 17:15:22 2024]: LibAUTO: starting thread
+[Tue Apr 23 17:15:22 2024]: LibAUTO: thread started
+[Tue Apr 23 17:15:22 2024]: LibAUTO run time: 0 s
+[Tue Apr 23 17:15:22 2024]: returning 0 data bytes to client
+(0.221 seconds) 
+[Tue Apr 23 17:15:22 2024]: run complete (0.221 s)
+[Tue Apr 23 17:15:22 2024]: done running
+[Tue Apr 23 17:15:22 2024]: returning (roughly) 1239 log bytes to client
+[Tue Apr 23 17:18:19 2024]: ERROR: o8core link error: socket operation failed
+[Tue Apr 23 17:18:19 2024]: ERROR: 
+[Tue Apr 23 17:18:19 2024]: ERROR: (module o8core link exception) Terminating link
+failed at Link.cpp:387
+[Tue Apr 23 17:18:19 2024]: link outfifo: waiting for thread to finish...
+[Tue Apr 23 17:18:19 2024]: o8core link run time: 473.885 s
+[Tue Apr 23 17:18:19 2024]: link outfifo run time: 473.885 s
+[Tue Apr 23 17:18:19 2024]: ERROR: exception was caught while running module o8core link
+[Tue Apr 23 17:18:19 2024]: link outfifo: 1321552 bytes in, 1321552 bytes out
+[Tue Apr 23 17:18:19 2024]: all done!

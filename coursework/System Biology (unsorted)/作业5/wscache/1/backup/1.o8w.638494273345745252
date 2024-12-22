@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<o8w name="1" o8version="2.0.11.24095">
+  <models count="1">
+    <model name="1" version="1" possvs="False">
+      <text># x stands for mRNA
+# y stands for Protein
+
+x'=k1*S*Kd^p/(Kd^p+y^p)-kd_x*x
+y'=ks_y*x-kd_y*y-k2*Et*y/(Km+y+Ki*y^2)
+
+param k1=0.05,kd_x=0.05,kd_y=0.05
+param p=4
+param S=1
+param ks_y=1
+param Kd=1
+param Km=0.1,Ki=2,k2=1,Et=1
+
+init y=1.156,x=0.136
+
+done</text>
+      <o8mi>
+        <xdim>2</xdim>
+        <species name="x" active="True" value="0.136" min="-136" max="136" type="1" />
+        <species name="y" active="True" value="1.156" min="-1156" max="1156" type="1" />
+        <pdim>11</pdim>
+        <par name="k1" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_x" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_y" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="p" active="True" value="4" min="-40" max="40" eps="0" s="0" type="6" />
+        <par name="S" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="ks_y" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Kd" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Km" active="True" value="0.1" min="-1" max="1" eps="0" s="0" type="6" />
+        <par name="Ki" active="True" value="2" min="-20" max="20" eps="0" s="0" type="6" />
+        <par name="k2" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Et" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <vdim>0</vdim>
+        <adim>0</adim>
+      </o8mi>
+    </model>
+  </models>
+  <runs count="4">
+    <o8r nplots="0" date="2024/4/22 23:49:36" model_version="-1" n_minors="0">
+      <notes />
+      <plots />
+      <o8mi>
+        <xdim>2</xdim>
+        <species name="x" active="True" value="0.136" min="-136" max="136" type="1" />
+        <species name="y" active="True" value="1.156" min="-1156" max="1156" type="1" />
+        <pdim>11</pdim>
+        <par name="k1" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_x" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_y" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="p" active="True" value="4" min="-40" max="40" eps="0" s="0" type="6" />
+        <par name="S" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="ks_y" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Kd" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Km" active="True" value="0.1" min="-1" max="1" eps="0" s="0" type="6" />
+        <par name="Ki" active="True" value="2" min="-20" max="20" eps="0" s="0" type="6" />
+        <par name="k2" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Et" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <vdim>0</vdim>
+        <adim>0</adim>
+      </o8mi>
+      <ode_pars>
+        <rtol>1E-08</rtol>
+        <atol>1E-08</atol>
+        <sstol>1E-08</sstol>
+      </ode_pars>
+      <continuation_pars>
+        <ds>0.001</ds>
+        <dsmin>1E-05</dsmin>
+        <dsmax>0.1</dsmax>
+        <iads>1</iads>
+        <nmx>1000</nmx>
+        <ntst>15</ntst>
+        <ncol>4</ncol>
+        <iad>3</iad>
+        <isp>1</isp>
+        <isw>1</isw>
+        <npr>50</npr>
+        <itmx>8</itmx>
+        <itnw>5</itnw>
+        <nwtn>3</nwtn>
+        <epsl>1E-08</epsl>
+        <epsu>1E-08</epsu>
+        <epss>1E-06</epss>
+        <ilp>1</ilp>
+      </continuation_pars>
+      <run name="null" parent_id="0.0" id="0.0" type="NullRun" />
+    </o8r>
+    <o8r nplots="1" date="2024/4/23 0:01:13" model_version="1" n_minors="0">
+      <notes />
+      <plots>
+        <plot_props>
+          <title>Time Series [1/1]</title>
+          <xtics>5</xtics>
+          <xticinc>100</xticinc>
+          <ytics>8</ytics>
+          <yticinc>0.5</yticinc>
+          <xmin>0</xmin>
+          <ymin>0</ymin>
+          <xmax>500</xmax>
+          <ymax>4</ymax>
+          <autofit>False</autofit>
+          <xscale>0</xscale>
+          <yscale>0</yscale>
+          <md5>b6087398f137d99c7e25fb6d9aac967b</md5>
+          <font_size>10</font_size>
+          <legend_right_off>100</legend_right_off>
+          <legend_top_off>0</legend_top_off>
+          <legend_visible>True</legend_visible>
+          <columns ncols="3">
+            <column>
+              <name>time</name>
+              <xplot>True</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>x</name>
+              <xplot>False</xplot>
+              <yplot>True</yplot>
+            </column>
+            <column>
+              <name>y</name>
+              <xplot>False</xplot>
+              <yplot>True</yplot>
+            </column>
+          </columns>
+        </plot_props>
+      </plots>
+      <o8mi>
+        <xdim>2</xdim>
+        <species name="x" active="True" value="0.136" min="-136" max="136" type="1" />
+        <species name="y" active="True" value="1.156" min="-1156" max="1156" type="1" />
+        <pdim>11</pdim>
+        <par name="k1" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_x" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_y" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="p" active="True" value="4" min="-40" max="40" eps="0" s="0" type="6" />
+        <par name="S" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="ks_y" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Kd" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Km" active="True" value="0.1" min="-1" max="1" eps="0" s="0" type="6" />
+        <par name="Ki" active="True" value="2" min="-20" max="20" eps="0" s="0" type="6" />
+        <par name="k2" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Et" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <vdim>0</vdim>
+        <adim>0</adim>
+      </o8mi>
+      <ode_pars>
+        <rtol>1E-08</rtol>
+        <atol>1E-08</atol>
+        <sstol>1E-08</sstol>
+      </ode_pars>
+      <continuation_pars>
+        <ds>0.001</ds>
+        <dsmin>1E-05</dsmin>
+        <dsmax>0.1</dsmax>
+        <iads>1</iads>
+        <nmx>1000</nmx>
+        <ntst>15</ntst>
+        <ncol>4</ncol>
+        <iad>3</iad>
+        <isp>1</isp>
+        <isw>1</isw>
+        <npr>50</npr>
+        <itmx>8</itmx>
+        <itnw>5</itnw>
+        <nwtn>3</nwtn>
+        <epsl>1E-08</epsl>
+        <epsu>1E-08</epsu>
+        <epss>1E-06</epss>
+        <ilp>1</ilp>
+      </continuation_pars>
+      <run name="ts" parent_id="0.0" id="10.0" type="TimeSeries">
+        <t_end>500</t_end>
+        <n_points>50000</n_points>
+      </run>
+    </o8r>
+    <o8r nplots="1" date="2024/4/23 0:01:23" model_version="1" n_minors="0">
+      <notes />
+      <plots>
+        <plot_props>
+          <title>One Parameter Bifurcation Data [1/1]: S</title>
+          <xtics>5</xtics>
+          <xticinc>1</xticinc>
+          <ytics>5</ytics>
+          <yticinc>0.5</yticinc>
+          <xmin>-0.5</xmin>
+          <ymin>-0.2</ymin>
+          <xmax>4.5</xmax>
+          <ymax>2</ymax>
+          <autofit>False</autofit>
+          <xscale>0</xscale>
+          <yscale>0</yscale>
+          <md5>f8e9aeb2c4403b37305292390d0271a0</md5>
+          <font_size>10</font_size>
+          <legend_right_off>100</legend_right_off>
+          <legend_top_off>0</legend_top_off>
+          <legend_visible>True</legend_visible>
+          <columns ncols="3">
+            <column>
+              <name>S</name>
+              <xplot>True</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>x</name>
+              <xplot>False</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>y</name>
+              <xplot>False</xplot>
+              <yplot>True</yplot>
+            </column>
+          </columns>
+        </plot_props>
+      </plots>
+      <o8mi>
+        <xdim>2</xdim>
+        <species name="x" active="True" value="0.136" min="-136" max="136" type="1" />
+        <species name="y" active="True" value="1.156" min="-1156" max="1156" type="1" />
+        <pdim>11</pdim>
+        <par name="k1" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_x" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_y" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="p" active="True" value="4" min="-40" max="40" eps="0" s="0" type="6" />
+        <par name="S" active="True" value="1" min="0" max="4" eps="0" s="0" type="6" />
+        <par name="ks_y" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Kd" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Km" active="True" value="0.1" min="-1" max="1" eps="0" s="0" type="6" />
+        <par name="Ki" active="True" value="2" min="-20" max="20" eps="0" s="0" type="6" />
+        <par name="k2" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Et" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <vdim>0</vdim>
+        <adim>0</adim>
+      </o8mi>
+      <ode_pars>
+        <rtol>1E-08</rtol>
+        <atol>1E-08</atol>
+        <sstol>1E-08</sstol>
+      </ode_pars>
+      <continuation_pars>
+        <ds>0.001</ds>
+        <dsmin>1E-05</dsmin>
+        <dsmax>0.1</dsmax>
+        <iads>1</iads>
+        <nmx>1000</nmx>
+        <ntst>15</ntst>
+        <ncol>4</ncol>
+        <iad>3</iad>
+        <isp>1</isp>
+        <isw>1</isw>
+        <npr>50</npr>
+        <itmx>8</itmx>
+        <itnw>5</itnw>
+        <nwtn>3</nwtn>
+        <epsl>1E-08</epsl>
+        <epsu>1E-08</epsu>
+        <epss>1E-06</epss>
+        <ilp>1</ilp>
+      </continuation_pars>
+      <run name="1p" parent_id="10.0" id="11.0" type="OneParameter">
+        <output>11.0/1p</output>
+        <ignore_xprops>False</ignore_xprops>
+        <tweak>False</tweak>
+        <interest n="1">
+          <par name="S" />
+        </interest>
+      </run>
+    </o8r>
+    <o8r nplots="1" date="2024/4/23 0:01:46" model_version="1" n_minors="0">
+      <notes />
+      <plots>
+        <plot_props>
+          <title>Limit Cycle Continuation Data [1/1]: S</title>
+          <xtics>6</xtics>
+          <xticinc>0.05</xticinc>
+          <ytics>5</ytics>
+          <yticinc>0.05</yticinc>
+          <xmin>2.7</xmin>
+          <ymin>36.05</ymin>
+          <xmax>3</xmax>
+          <ymax>36.3</ymax>
+          <autofit>False</autofit>
+          <xscale>0</xscale>
+          <yscale>0</yscale>
+          <md5>ec3056ae96e924f3b1e5153d0593b32f</md5>
+          <font_size>10</font_size>
+          <legend_right_off>100</legend_right_off>
+          <legend_top_off>0</legend_top_off>
+          <legend_visible>True</legend_visible>
+          <columns ncols="6">
+            <column>
+              <name>S</name>
+              <xplot>True</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>PERIOD</name>
+              <xplot>False</xplot>
+              <yplot>True</yplot>
+            </column>
+            <column>
+              <name>MIN x</name>
+              <xplot>False</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>MAX x</name>
+              <xplot>False</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>MIN y</name>
+              <xplot>False</xplot>
+              <yplot>False</yplot>
+            </column>
+            <column>
+              <name>MAX y</name>
+              <xplot>False</xplot>
+              <yplot>False</yplot>
+            </column>
+          </columns>
+        </plot_props>
+      </plots>
+      <o8mi>
+        <xdim>2</xdim>
+        <species name="x" active="True" value="0.136" min="-136" max="136" type="1" />
+        <species name="y" active="True" value="1.156" min="-1156" max="1156" type="1" />
+        <pdim>11</pdim>
+        <par name="k1" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_x" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="kd_y" active="True" value="0.05" min="-0.5" max="0.5" eps="0" s="0" type="6" />
+        <par name="p" active="True" value="4" min="-40" max="40" eps="0" s="0" type="6" />
+        <par name="S" active="True" value="1" min="0" max="4" eps="0" s="0" type="6" />
+        <par name="ks_y" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Kd" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Km" active="True" value="0.1" min="-1" max="1" eps="0" s="0" type="6" />
+        <par name="Ki" active="True" value="2" min="-20" max="20" eps="0" s="0" type="6" />
+        <par name="k2" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <par name="Et" active="True" value="1" min="-10" max="10" eps="0" s="0" type="6" />
+        <vdim>0</vdim>
+        <adim>0</adim>
+      </o8mi>
+      <ode_pars>
+        <rtol>1E-08</rtol>
+        <atol>1E-08</atol>
+        <sstol>1E-08</sstol>
+      </ode_pars>
+      <continuation_pars>
+        <ds>0.001</ds>
+        <dsmin>1E-05</dsmin>
+        <dsmax>0.1</dsmax>
+        <iads>1</iads>
+        <nmx>1000</nmx>
+        <ntst>15</ntst>
+        <ncol>4</ncol>
+        <iad>3</iad>
+        <isp>1</isp>
+        <isw>1</isw>
+        <npr>50</npr>
+        <itmx>8</itmx>
+        <itnw>5</itnw>
+        <nwtn>3</nwtn>
+        <epsl>1E-08</epsl>
+        <epsu>1E-08</epsu>
+        <epss>1E-06</epss>
+        <ilp>1</ilp>
+      </continuation_pars>
+      <run name="cp" parent_id="11.0" id="12.0" type="FollowLimitCycles">
+        <input>11.0/1p_S_all.8</input>
+        <output>12.0/cp</output>
+        <par>S</par>
+        <label>4</label>
+      </run>
+    </o8r>
+  </runs>
+</o8w>

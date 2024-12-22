@@ -1,0 +1,96 @@
+
+o8core, 2.0.11
+author: Emery Conrad
+build date: Jan 14 2011, 13:23:16
+
+[Wed Apr 24 14:02:11 2024]: creating logfile o8core_115_14_2_11.log
+[Wed Apr 24 14:02:11 2024]: initializing link on port 28472
+[Wed Apr 24 14:02:11 2024]: initializing winsock library
+[Wed Apr 24 14:02:11 2024]: link port is 28472
+[Wed Apr 24 14:02:11 2024]: port 28472 is bound
+[Wed Apr 24 14:02:11 2024]: listening on port 28472
+[Wed Apr 24 14:02:11 2024]: link outfifo: starting thread
+[Wed Apr 24 14:02:11 2024]: link outfifo: thread started
+[Wed Apr 24 14:02:11 2024]: o8core link: starting thread
+[Wed Apr 24 14:02:11 2024]: o8core link: thread started
+[Wed Apr 24 14:02:12 2024]: accepted socket connection on port 34764
+[Wed Apr 24 14:02:12 2024]: link received initialization message, reading in 396 bytes of model text
+[Wed Apr 24 14:02:12 2024]: ignoring o8mi tag in model init
+[Wed Apr 24 14:02:47 2024]: link received run message, reading in 1744 bytes of o8r text
+[Wed Apr 24 14:02:47 2024]: ignoring notes in o8r
+[Wed Apr 24 14:02:47 2024]: ignoring plots in o8r
+[Wed Apr 24 14:02:47 2024]: running...
+[Wed Apr 24 14:02:47 2024]: running a time series
+[Wed Apr 24 14:02:47 2024]: will run for 500 time units, 50000 points
+[Wed Apr 24 14:02:47 2024]: returning 1200024 data bytes to client
+[Wed Apr 24 14:02:47 2024]: run complete (0.059 s)
+[Wed Apr 24 14:02:47 2024]: done running
+[Wed Apr 24 14:02:47 2024]: returning (roughly) 1369 log bytes to client
+[Wed Apr 24 14:03:08 2024]: link received run message, reading in 1822 bytes of o8r text
+[Wed Apr 24 14:03:08 2024]: ignoring notes in o8r
+[Wed Apr 24 14:03:08 2024]: ignoring plots in o8r
+[Wed Apr 24 14:03:08 2024]: running...
+[Wed Apr 24 14:03:08 2024]: running a one parameter bifurcation
+[Wed Apr 24 14:03:08 2024]: ignoring xprops
+[Wed Apr 24 14:03:08 2024]: solving for steady state
+[Wed Apr 24 14:03:08 2024]: trying newton's method
+[Wed Apr 24 14:03:08 2024]: try solving time series
+[Wed Apr 24 14:03:08 2024]: reached stable steady state
+[Wed Apr 24 14:03:08 2024]: continuing S
+[Wed Apr 24 14:03:08 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:03:08 2024]: LibAUTO: thread started
+[Wed Apr 24 14:03:08 2024]: LibAUTO run time: 0.052 s
+[Wed Apr 24 14:03:08 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:03:08 2024]: LibAUTO: thread started
+[Wed Apr 24 14:03:08 2024]: LibAUTO run time: 0.016 s
+[Wed Apr 24 14:03:08 2024]: returning 11232 data bytes to client
+[Wed Apr 24 14:03:08 2024]: S took 0.227 seconds (0.227 for actual continuation)
+[Wed Apr 24 14:03:08 2024]: run complete (0.227 s)
+[Wed Apr 24 14:03:08 2024]: done running
+[Wed Apr 24 14:03:08 2024]: returning (roughly) 1145 log bytes to client
+[Wed Apr 24 14:04:16 2024]: link received run message, reading in 1894 bytes of o8r text
+[Wed Apr 24 14:04:16 2024]: ignoring notes in o8r
+[Wed Apr 24 14:04:16 2024]: ignoring plots in o8r
+[Wed Apr 24 14:04:16 2024]: running...
+[Wed Apr 24 14:04:16 2024]: running a two parameter bifurcation
+[Wed Apr 24 14:04:16 2024]: ignoring xprops
+[Wed Apr 24 14:04:16 2024]: WARNING: don't know what to do with tag par, ignoring
+[Wed Apr 24 14:04:16 2024]: starting at label 6
+[Wed Apr 24 14:04:16 2024]: continuing...
+S vs. kd_x[Wed Apr 24 14:04:16 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:04:16 2024]: LibAUTO: thread started
+[Wed Apr 24 14:04:16 2024]: LibAUTO run time: 0.224 s
+[Wed Apr 24 14:04:16 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:04:16 2024]: LibAUTO: thread started
+[Wed Apr 24 14:04:16 2024]: LibAUTO run time: 0.254 s
+[Wed Apr 24 14:04:17 2024]: returning 88000 data bytes to client
+(0.687 seconds) 
+[Wed Apr 24 14:04:17 2024]: run complete (0.687 s)
+[Wed Apr 24 14:04:17 2024]: done running
+[Wed Apr 24 14:04:17 2024]: returning (roughly) 1010 log bytes to client
+[Wed Apr 24 14:05:06 2024]: link received run message, reading in 1894 bytes of o8r text
+[Wed Apr 24 14:05:06 2024]: ignoring notes in o8r
+[Wed Apr 24 14:05:06 2024]: ignoring plots in o8r
+[Wed Apr 24 14:05:06 2024]: running...
+[Wed Apr 24 14:05:06 2024]: running a two parameter bifurcation
+[Wed Apr 24 14:05:06 2024]: ignoring xprops
+[Wed Apr 24 14:05:06 2024]: WARNING: don't know what to do with tag par, ignoring
+[Wed Apr 24 14:05:06 2024]: starting at label 4
+[Wed Apr 24 14:05:06 2024]: continuing...
+S vs. kd_x[Wed Apr 24 14:05:06 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:05:06 2024]: LibAUTO: thread started
+[Wed Apr 24 14:05:06 2024]: LibAUTO run time: 0.02 s
+[Wed Apr 24 14:05:06 2024]: LibAUTO: starting thread
+[Wed Apr 24 14:05:06 2024]: LibAUTO: thread started
+[Wed Apr 24 14:05:06 2024]: LibAUTO run time: 0.014 s
+[Wed Apr 24 14:05:07 2024]: returning 5060 data bytes to client
+(0.224 seconds) 
+[Wed Apr 24 14:05:07 2024]: run complete (0.225 s)
+[Wed Apr 24 14:05:07 2024]: done running
+[Wed Apr 24 14:05:07 2024]: returning (roughly) 1008 log bytes to client
+[Wed Apr 24 14:07:39 2024]: link received quit message, exiting.
+[Wed Apr 24 14:07:39 2024]: link outfifo: waiting for thread to finish...
+[Wed Apr 24 14:07:39 2024]: o8core link run time: 327.616 s
+[Wed Apr 24 14:07:39 2024]: link outfifo run time: 327.616 s
+[Wed Apr 24 14:07:39 2024]: link outfifo: 1304316 bytes in, 1304316 bytes out
+[Wed Apr 24 14:07:39 2024]: all done!

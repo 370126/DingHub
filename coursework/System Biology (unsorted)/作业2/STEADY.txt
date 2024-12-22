@@ -1,0 +1,20 @@
+1f-S=0.4
+steady state:
+	[OUT]=0.638;
+	[A]=0.263;
+
+1f-S=0.1
+steady state:
+	[OUT]=0.0702;
+	[A]=0.0108;
+
+
+1f-S=0.21,init=high
+steady state:
+	[OUT]=0.487;
+	[A]=0.1415;
+
+1f-S=0.21,init=low
+steady state:
+	[OUT]=0.0794;
+	[A]=0.0124;

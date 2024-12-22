@@ -1,0 +1,9 @@
+A'=(0.5+0.1*heav(t-8))*k_ia*(1-A)/(1-A+K_ia)-F_a*k_faa*A/(A+K_faa)
+B'=C*k_cb*(1-B)/(1-B+K_cb)-F_b*k_fbb*B/(B+K_fbb)
+C'=A*k_ac*(1-C)/(1-C+K_ac)-B*k_bc*C/(C+K_bc)
+
+param K_fbb=0.1,K_cb=0.1,k_ac=10,k_bc=10,I1=0.5,I2=0.6,k_ia=2.5001,K_ia=1,F_a=1,k_faa=1,K_faa=0.43,k_cb=1,F_b=0.5,k_fbb=1,K_ac=0.01,K_bc=0.301
+
+init A=0.3882
+init B=0.5945
+init C=0.5336

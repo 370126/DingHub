@@ -1,0 +1,336 @@
+
+o8core, 2.0.11
+author: Emery Conrad
+build date: Jan 14 2011, 13:23:16
+
+[Wed Apr 10 17:14:26 2024]: creating logfile o8core_101_17_14_26.log
+[Wed Apr 10 17:14:26 2024]: initializing link on port 28472
+[Wed Apr 10 17:14:26 2024]: initializing winsock library
+[Wed Apr 10 17:14:26 2024]: link port is 28472
+[Wed Apr 10 17:14:26 2024]: port 28472 is bound
+[Wed Apr 10 17:14:26 2024]: listening on port 28472
+[Wed Apr 10 17:14:26 2024]: link outfifo: starting thread
+[Wed Apr 10 17:14:26 2024]: link outfifo: thread started
+[Wed Apr 10 17:14:26 2024]: o8core link: starting thread
+[Wed Apr 10 17:14:26 2024]: o8core link: thread started
+[Wed Apr 10 17:14:26 2024]: accepted socket connection on port 47339
+[Wed Apr 10 17:14:26 2024]: link received initialization message, reading in 775 bytes of model text
+[Wed Apr 10 17:14:26 2024]: ignoring o8mi tag in model init
+[Wed Apr 10 17:14:29 2024]: link received run message, reading in 2439 bytes of o8r text
+[Wed Apr 10 17:14:29 2024]: ignoring notes in o8r
+[Wed Apr 10 17:14:29 2024]: ignoring plots in o8r
+[Wed Apr 10 17:14:29 2024]: running...
+[Wed Apr 10 17:14:29 2024]: running a time series
+[Wed Apr 10 17:14:29 2024]: will run for 250 time units, 500 points
+[Wed Apr 10 17:14:29 2024]: returning 40080 data bytes to client
+[Wed Apr 10 17:14:29 2024]: run complete (0 s)
+[Wed Apr 10 17:14:29 2024]: done running
+[Wed Apr 10 17:14:29 2024]: returning (roughly) 1362 log bytes to client
+[Wed Apr 10 17:15:06 2024]: link received run message, reading in 2529 bytes of o8r text
+[Wed Apr 10 17:15:06 2024]: ignoring notes in o8r
+[Wed Apr 10 17:15:06 2024]: ignoring plots in o8r
+[Wed Apr 10 17:15:06 2024]: running...
+[Wed Apr 10 17:15:06 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:15:06 2024]: ignoring xprops
+[Wed Apr 10 17:15:06 2024]: solving for steady state
+[Wed Apr 10 17:15:06 2024]: trying newton's method
+[Wed Apr 10 17:15:06 2024]: try solving time series
+[Wed Apr 10 17:15:06 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:15:06 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:15:06 2024]: continuing kinase_tot
+[Wed Apr 10 17:15:06 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:15:06 2024]: LibAUTO: thread started
+[Wed Apr 10 17:15:07 2024]: LibAUTO run time: 0.05 s
+[Wed Apr 10 17:15:07 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:15:07 2024]: LibAUTO: thread started
+[Wed Apr 10 17:15:07 2024]: LibAUTO run time: 0.031 s
+[Wed Apr 10 17:15:07 2024]: returning 10472 data bytes to client
+[Wed Apr 10 17:15:07 2024]: kinase_tot took 0.223 seconds (0.223 for actual continuation)
+[Wed Apr 10 17:15:07 2024]: run complete (0.223 s)
+[Wed Apr 10 17:15:07 2024]: done running
+[Wed Apr 10 17:15:07 2024]: returning (roughly) 1261 log bytes to client
+[Wed Apr 10 17:18:24 2024]: link received reconcile model data message, reading in 1897 bytes of model data text
+[Wed Apr 10 17:18:24 2024]: reconciling...
+[Wed Apr 10 17:18:24 2024]: done
+[Wed Apr 10 17:18:24 2024]: link received run message, reading in 2531 bytes of o8r text
+[Wed Apr 10 17:18:24 2024]: ignoring notes in o8r
+[Wed Apr 10 17:18:24 2024]: ignoring plots in o8r
+[Wed Apr 10 17:18:24 2024]: running...
+[Wed Apr 10 17:18:24 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:18:24 2024]: ignoring xprops
+[Wed Apr 10 17:18:24 2024]: solving for steady state
+[Wed Apr 10 17:18:24 2024]: trying newton's method
+[Wed Apr 10 17:18:24 2024]: try solving time series
+[Wed Apr 10 17:18:24 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:18:24 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:18:24 2024]: continuing kinase_tot
+[Wed Apr 10 17:18:24 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:18:24 2024]: LibAUTO: thread started
+[Wed Apr 10 17:18:24 2024]: LibAUTO run time: 0.109 s
+[Wed Apr 10 17:18:24 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:18:24 2024]: LibAUTO: thread started
+[Wed Apr 10 17:18:24 2024]: LibAUTO run time: 0.032 s
+[Wed Apr 10 17:18:24 2024]: returning 27472 data bytes to client
+[Wed Apr 10 17:18:24 2024]: kinase_tot took 0.243 seconds (0.243 for actual continuation)
+[Wed Apr 10 17:18:24 2024]: run complete (0.243 s)
+[Wed Apr 10 17:18:24 2024]: done running
+[Wed Apr 10 17:18:24 2024]: returning (roughly) 1451 log bytes to client
+[Wed Apr 10 17:18:24 2024]: link received reconcile model data message, reading in 1899 bytes of model data text
+[Wed Apr 10 17:18:24 2024]: reconciling...
+[Wed Apr 10 17:18:24 2024]: done
+[Wed Apr 10 17:18:24 2024]: link received run message, reading in 2533 bytes of o8r text
+[Wed Apr 10 17:18:24 2024]: ignoring notes in o8r
+[Wed Apr 10 17:18:24 2024]: ignoring plots in o8r
+[Wed Apr 10 17:18:24 2024]: running...
+[Wed Apr 10 17:18:24 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:18:24 2024]: ignoring xprops
+[Wed Apr 10 17:18:24 2024]: solving for steady state
+[Wed Apr 10 17:18:24 2024]: trying newton's method
+[Wed Apr 10 17:18:24 2024]: try solving time series
+[Wed Apr 10 17:18:24 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:18:24 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:18:24 2024]: continuing kinase_tot
+[Wed Apr 10 17:18:24 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:18:24 2024]: LibAUTO: thread started
+[Wed Apr 10 17:18:24 2024]: LibAUTO run time: 0.063 s
+[Wed Apr 10 17:18:24 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:18:24 2024]: LibAUTO: thread started
+[Wed Apr 10 17:18:24 2024]: LibAUTO run time: 0.048 s
+[Wed Apr 10 17:18:24 2024]: returning 30804 data bytes to client
+[Wed Apr 10 17:18:24 2024]: kinase_tot took 0.236 seconds (0.236 for actual continuation)
+[Wed Apr 10 17:18:24 2024]: run complete (0.251 s)
+[Wed Apr 10 17:18:24 2024]: done running
+[Wed Apr 10 17:18:24 2024]: returning (roughly) 1451 log bytes to client
+[Wed Apr 10 17:20:35 2024]: link received reconcile model data message, reading in 1897 bytes of model data text
+[Wed Apr 10 17:20:35 2024]: reconciling...
+[Wed Apr 10 17:20:35 2024]: done
+[Wed Apr 10 17:20:35 2024]: link received run message, reading in 3535 bytes of o8r text
+[Wed Apr 10 17:20:35 2024]: ignoring notes in o8r
+[Wed Apr 10 17:20:35 2024]: ignoring plots in o8r
+[Wed Apr 10 17:20:35 2024]: running...
+[Wed Apr 10 17:20:35 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:20:35 2024]: ignoring xprops
+[Wed Apr 10 17:20:35 2024]: solving for steady state
+[Wed Apr 10 17:20:35 2024]: trying newton's method
+[Wed Apr 10 17:20:35 2024]: try solving time series
+[Wed Apr 10 17:20:35 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:20:35 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:20:35 2024]: continuing kinase_tot
+[Wed Apr 10 17:20:35 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:20:35 2024]: LibAUTO: thread started
+[Wed Apr 10 17:20:35 2024]: LibAUTO run time: 0.059 s
+[Wed Apr 10 17:20:35 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:20:35 2024]: LibAUTO: thread started
+[Wed Apr 10 17:20:36 2024]: LibAUTO run time: 0.047 s
+[Wed Apr 10 17:20:36 2024]: returning 27472 data bytes to client
+[Wed Apr 10 17:20:36 2024]: kinase_tot took 0.232 seconds (0.232 for actual continuation)
+[Wed Apr 10 17:20:36 2024]: run complete (0.237 s)
+[Wed Apr 10 17:20:36 2024]: done running
+[Wed Apr 10 17:20:36 2024]: returning (roughly) 1451 log bytes to client
+[Wed Apr 10 17:20:36 2024]: link received reconcile model data message, reading in 1899 bytes of model data text
+[Wed Apr 10 17:20:36 2024]: reconciling...
+[Wed Apr 10 17:20:36 2024]: done
+[Wed Apr 10 17:20:36 2024]: link received run message, reading in 3539 bytes of o8r text
+[Wed Apr 10 17:20:36 2024]: ignoring notes in o8r
+[Wed Apr 10 17:20:36 2024]: ignoring plots in o8r
+[Wed Apr 10 17:20:36 2024]: running...
+[Wed Apr 10 17:20:36 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:20:36 2024]: ignoring xprops
+[Wed Apr 10 17:20:36 2024]: solving for steady state
+[Wed Apr 10 17:20:36 2024]: trying newton's method
+[Wed Apr 10 17:20:36 2024]: try solving time series
+[Wed Apr 10 17:20:36 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:20:36 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:20:36 2024]: continuing kinase_tot
+[Wed Apr 10 17:20:36 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:20:36 2024]: LibAUTO: thread started
+[Wed Apr 10 17:20:36 2024]: LibAUTO run time: 0.057 s
+[Wed Apr 10 17:20:36 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:20:36 2024]: LibAUTO: thread started
+[Wed Apr 10 17:20:36 2024]: LibAUTO run time: 0.063 s
+[Wed Apr 10 17:20:36 2024]: returning 30804 data bytes to client
+[Wed Apr 10 17:20:36 2024]: kinase_tot took 0.22 seconds (0.22 for actual continuation)
+[Wed Apr 10 17:20:36 2024]: run complete (0.236 s)
+[Wed Apr 10 17:20:36 2024]: done running
+[Wed Apr 10 17:20:36 2024]: returning (roughly) 1449 log bytes to client
+[Wed Apr 10 17:21:17 2024]: link received run message, reading in 2554 bytes of o8r text
+[Wed Apr 10 17:21:17 2024]: ignoring notes in o8r
+[Wed Apr 10 17:21:17 2024]: ignoring plots in o8r
+[Wed Apr 10 17:21:17 2024]: running...
+[Wed Apr 10 17:21:17 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:21:17 2024]: ignoring xprops
+[Wed Apr 10 17:21:17 2024]: solving for steady state
+[Wed Apr 10 17:21:17 2024]: trying newton's method
+[Wed Apr 10 17:21:17 2024]: try solving time series
+[Wed Apr 10 17:21:17 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:21:17 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:21:17 2024]: continuing kinase_tot
+[Wed Apr 10 17:21:17 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:17 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:17 2024]: LibAUTO run time: 0.094 s
+[Wed Apr 10 17:21:17 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:17 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:17 2024]: LibAUTO run time: 0.031 s
+[Wed Apr 10 17:21:17 2024]: returning 27472 data bytes to client
+[Wed Apr 10 17:21:17 2024]: kinase_tot took 0.219 seconds (0.219 for actual continuation)
+[Wed Apr 10 17:21:17 2024]: continuing x_tot
+[Wed Apr 10 17:21:17 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:17 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:17 2024]: LibAUTO run time: 0.047 s
+[Wed Apr 10 17:21:17 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:17 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:17 2024]: LibAUTO run time: 0.078 s
+[Wed Apr 10 17:21:17 2024]: returning 29988 data bytes to client
+[Wed Apr 10 17:21:17 2024]: x_tot took 0.235 seconds (0.235 for actual continuation)
+[Wed Apr 10 17:21:17 2024]: run complete (0.463 s)
+[Wed Apr 10 17:21:17 2024]: done running
+[Wed Apr 10 17:21:17 2024]: returning (roughly) 1775 log bytes to client
+[Wed Apr 10 17:21:57 2024]: link received run message, reading in 2553 bytes of o8r text
+[Wed Apr 10 17:21:57 2024]: ignoring notes in o8r
+[Wed Apr 10 17:21:57 2024]: ignoring plots in o8r
+[Wed Apr 10 17:21:57 2024]: running...
+[Wed Apr 10 17:21:57 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:21:57 2024]: ignoring xprops
+[Wed Apr 10 17:21:57 2024]: solving for steady state
+[Wed Apr 10 17:21:57 2024]: trying newton's method
+[Wed Apr 10 17:21:57 2024]: try solving time series
+[Wed Apr 10 17:21:57 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:21:57 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:21:57 2024]: continuing kinase_tot
+[Wed Apr 10 17:21:57 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:57 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:57 2024]: LibAUTO run time: 0.041 s
+[Wed Apr 10 17:21:57 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:57 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:57 2024]: LibAUTO run time: 0.035 s
+[Wed Apr 10 17:21:57 2024]: returning 10472 data bytes to client
+[Wed Apr 10 17:21:57 2024]: kinase_tot took 0.229 seconds (0.229 for actual continuation)
+[Wed Apr 10 17:21:57 2024]: continuing x_tot
+[Wed Apr 10 17:21:57 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:57 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:57 2024]: LibAUTO run time: 0.032 s
+[Wed Apr 10 17:21:57 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:21:57 2024]: LibAUTO: thread started
+[Wed Apr 10 17:21:57 2024]: LibAUTO run time: 0.063 s
+[Wed Apr 10 17:21:57 2024]: returning 29988 data bytes to client
+[Wed Apr 10 17:21:57 2024]: x_tot took 0.226 seconds (0.226 for actual continuation)
+[Wed Apr 10 17:21:57 2024]: run complete (0.462 s)
+[Wed Apr 10 17:21:57 2024]: done running
+[Wed Apr 10 17:21:57 2024]: returning (roughly) 1775 log bytes to client
+[Wed Apr 10 17:23:47 2024]: link received reconcile model data message, reading in 1898 bytes of model data text
+[Wed Apr 10 17:23:47 2024]: reconciling...
+[Wed Apr 10 17:23:47 2024]: done
+[Wed Apr 10 17:23:47 2024]: link received run message, reading in 2535 bytes of o8r text
+[Wed Apr 10 17:23:47 2024]: ignoring notes in o8r
+[Wed Apr 10 17:23:47 2024]: ignoring plots in o8r
+[Wed Apr 10 17:23:47 2024]: running...
+[Wed Apr 10 17:23:47 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:23:47 2024]: ignoring xprops
+[Wed Apr 10 17:23:47 2024]: solving for steady state
+[Wed Apr 10 17:23:47 2024]: trying newton's method
+[Wed Apr 10 17:23:47 2024]: try solving time series
+[Wed Apr 10 17:23:47 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:23:47 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:23:47 2024]: continuing kinase_tot
+[Wed Apr 10 17:23:47 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:47 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:47 2024]: LibAUTO run time: 0.067 s
+[Wed Apr 10 17:23:47 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:47 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:47 2024]: LibAUTO run time: 0.055 s
+[Wed Apr 10 17:23:47 2024]: returning 13804 data bytes to client
+[Wed Apr 10 17:23:47 2024]: kinase_tot took 0.222 seconds (0.222 for actual continuation)
+[Wed Apr 10 17:23:47 2024]: run complete (0.222 s)
+[Wed Apr 10 17:23:47 2024]: done running
+[Wed Apr 10 17:23:47 2024]: returning (roughly) 1451 log bytes to client
+[Wed Apr 10 17:23:47 2024]: link received reconcile model data message, reading in 1896 bytes of model data text
+[Wed Apr 10 17:23:47 2024]: reconciling...
+[Wed Apr 10 17:23:47 2024]: done
+[Wed Apr 10 17:23:47 2024]: link received run message, reading in 2531 bytes of o8r text
+[Wed Apr 10 17:23:47 2024]: ignoring notes in o8r
+[Wed Apr 10 17:23:47 2024]: ignoring plots in o8r
+[Wed Apr 10 17:23:47 2024]: running...
+[Wed Apr 10 17:23:47 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:23:47 2024]: ignoring xprops
+[Wed Apr 10 17:23:47 2024]: solving for steady state
+[Wed Apr 10 17:23:47 2024]: trying newton's method
+[Wed Apr 10 17:23:47 2024]: try solving time series
+[Wed Apr 10 17:23:47 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:23:47 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:23:47 2024]: continuing kinase_tot
+[Wed Apr 10 17:23:47 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:47 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:47 2024]: LibAUTO run time: 0 s
+[Wed Apr 10 17:23:47 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:47 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:47 2024]: LibAUTO run time: 0.073 s
+[Wed Apr 10 17:23:47 2024]: returning 10472 data bytes to client
+[Wed Apr 10 17:23:47 2024]: kinase_tot took 0.221 seconds (0.221 for actual continuation)
+[Wed Apr 10 17:23:47 2024]: run complete (0.237 s)
+[Wed Apr 10 17:23:47 2024]: done running
+[Wed Apr 10 17:23:47 2024]: returning (roughly) 1447 log bytes to client
+[Wed Apr 10 17:23:47 2024]: link received reconcile model data message, reading in 1898 bytes of model data text
+[Wed Apr 10 17:23:47 2024]: reconciling...
+[Wed Apr 10 17:23:47 2024]: done
+[Wed Apr 10 17:23:47 2024]: link received run message, reading in 2535 bytes of o8r text
+[Wed Apr 10 17:23:47 2024]: ignoring notes in o8r
+[Wed Apr 10 17:23:47 2024]: ignoring plots in o8r
+[Wed Apr 10 17:23:47 2024]: running...
+[Wed Apr 10 17:23:47 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:23:47 2024]: ignoring xprops
+[Wed Apr 10 17:23:47 2024]: solving for steady state
+[Wed Apr 10 17:23:47 2024]: trying newton's method
+[Wed Apr 10 17:23:47 2024]: try solving time series
+[Wed Apr 10 17:23:48 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:23:48 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:23:48 2024]: continuing kinase_tot
+[Wed Apr 10 17:23:48 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:48 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:48 2024]: LibAUTO run time: 0.016 s
+[Wed Apr 10 17:23:48 2024]: LibAUTO: starting thread
+[Wed Apr 10 17:23:48 2024]: LibAUTO: thread started
+[Wed Apr 10 17:23:48 2024]: LibAUTO run time: 0.047 s
+[Wed Apr 10 17:23:48 2024]: returning 14892 data bytes to client
+[Wed Apr 10 17:23:48 2024]: kinase_tot took 0.221 seconds (0.221 for actual continuation)
+[Wed Apr 10 17:23:48 2024]: run complete (0.237 s)
+[Wed Apr 10 17:23:48 2024]: done running
+[Wed Apr 10 17:23:48 2024]: returning (roughly) 1451 log bytes to client
+[Wed Apr 10 17:23:48 2024]: link received reconcile model data message, reading in 1896 bytes of model data text
+[Wed Apr 10 17:23:48 2024]: reconciling...
+[Wed Apr 10 17:23:48 2024]: done
+[Wed Apr 10 17:23:48 2024]: link received run message, reading in 2531 bytes of o8r text
+[Wed Apr 10 17:23:48 2024]: ignoring notes in o8r
+[Wed Apr 10 17:23:48 2024]: ignoring plots in o8r
+[Wed Apr 10 17:23:48 2024]: running...
+[Wed Apr 10 17:23:48 2024]: running a one parameter bifurcation
+[Wed Apr 10 17:23:48 2024]: ignoring xprops
+[Wed Apr 10 17:23:48 2024]: solving for steady state
+[Wed Apr 10 17:23:48 2024]: trying newton's method
+[Wed Apr 10 17:23:48 2024]: try solving time series
+[Wed Apr 10 17:23:48 2024]: WARNING: time course run didn't find a stable steady state
+[Wed Apr 10 17:23:48 2024]: trying newton's method again to hone in
+[Wed Apr 10 17:23:48 2024]: ERROR: could not find initial steady state to begin continuation
+please set a valid steady state and run again
+[Wed Apr 10 17:23:48 2024]: run complete (0 s)
+[Wed Apr 10 17:23:48 2024]: done running
+[Wed Apr 10 17:23:48 2024]: returning (roughly) 1063 log bytes to client
+[Wed Apr 10 18:33:20 2024]: link received run message, reading in 2442 bytes of o8r text
+[Wed Apr 10 18:33:20 2024]: ignoring notes in o8r
+[Wed Apr 10 18:33:20 2024]: ignoring plots in o8r
+[Wed Apr 10 18:33:20 2024]: running...
+[Wed Apr 10 18:33:20 2024]: running a time series
+[Wed Apr 10 18:33:20 2024]: will run for 250 time units, 25000 points
+[Wed Apr 10 18:33:20 2024]: returning 1400056 data bytes to client
+[Wed Apr 10 18:33:20 2024]: run complete (0.036 s)
+[Wed Apr 10 18:33:20 2024]: done running
+[Wed Apr 10 18:33:20 2024]: returning (roughly) 507 log bytes to client
+[Wed Apr 10 18:37:02 2024]: ERROR: o8core link error: socket operation failed
+[Wed Apr 10 18:37:02 2024]: ERROR: 
+[Wed Apr 10 18:37:02 2024]: ERROR: (module o8core link exception) Terminating link
+failed at Link.cpp:387
+[Wed Apr 10 18:37:02 2024]: link outfifo: waiting for thread to finish...
+[Wed Apr 10 18:37:02 2024]: o8core link run time: 4956.17 s
+[Wed Apr 10 18:37:02 2024]: ERROR: exception was caught while running module o8core link
+[Wed Apr 10 18:37:02 2024]: link outfifo run time: 4956.17 s
+[Wed Apr 10 18:37:02 2024]: link outfifo: 1704248 bytes in, 1704248 bytes out
+[Wed Apr 10 18:37:02 2024]: all done!

@@ -1,0 +1,7 @@
+xp'=(k1*input+k2*xp)*(x_tot-xp)-k_1*(xp/(K+xp))
+
+param k1=1,k_1=0.3,k2=0.8,K=0.01
+param x_tot=1
+param input=0.2
+
+init xp=0

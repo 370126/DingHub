@@ -1,0 +1,929 @@
+
+o8core, 2.0.11
+author: Emery Conrad
+build date: Jan 14 2011, 13:23:16
+
+[Wed May 15 19:04:40 2024]: creating logfile o8core_136_19_4_40.log
+[Wed May 15 19:04:40 2024]: initializing link on port 28472
+[Wed May 15 19:04:40 2024]: initializing winsock library
+[Wed May 15 19:04:40 2024]: link port is 28472
+[Wed May 15 19:04:40 2024]: port 28472 is bound
+[Wed May 15 19:04:40 2024]: listening on port 28472
+[Wed May 15 19:04:40 2024]: link outfifo: starting thread
+[Wed May 15 19:04:40 2024]: link outfifo: thread started
+[Wed May 15 19:04:40 2024]: o8core link: starting thread
+[Wed May 15 19:04:40 2024]: o8core link: thread started
+[Wed May 15 19:04:41 2024]: accepted socket connection on port 2808
+[Wed May 15 19:04:41 2024]: link received initialization message, reading in 577 bytes of model text
+[Wed May 15 19:04:41 2024]: ignoring o8mi tag in model init
+[Wed May 15 19:04:51 2024]: link received run message, reading in 2252 bytes of o8r text
+[Wed May 15 19:04:51 2024]: ignoring notes in o8r
+[Wed May 15 19:04:51 2024]: ignoring plots in o8r
+[Wed May 15 19:04:51 2024]: running...
+[Wed May 15 19:04:51 2024]: running a one parameter bifurcation
+[Wed May 15 19:04:51 2024]: ignoring xprops
+[Wed May 15 19:04:51 2024]: solving for steady state
+[Wed May 15 19:04:51 2024]: trying newton's method
+[Wed May 15 19:04:51 2024]: try solving time series
+[Wed May 15 19:04:51 2024]: WARNING: time course run didn't find a stable steady state
+[Wed May 15 19:04:51 2024]: trying newton's method again to hone in
+[Wed May 15 19:04:51 2024]: continuing S
+[Wed May 15 19:04:51 2024]: LibAUTO: starting thread
+[Wed May 15 19:04:51 2024]: LibAUTO: thread started
+[Wed May 15 19:04:51 2024]: LibAUTO run time: 0.055 s
+[Wed May 15 19:04:51 2024]: LibAUTO: starting thread
+[Wed May 15 19:04:51 2024]: LibAUTO: thread started
+[Wed May 15 19:04:51 2024]: LibAUTO run time: 0.059 s
+[Wed May 15 19:04:51 2024]: returning 13508 data bytes to client
+[Wed May 15 19:04:51 2024]: S took 0.228 seconds (0.228 for actual continuation)
+[Wed May 15 19:04:51 2024]: run complete (0.237 s)
+[Wed May 15 19:04:51 2024]: done running
+[Wed May 15 19:04:51 2024]: returning (roughly) 2105 log bytes to client
+[Wed May 15 19:04:57 2024]: link received run message, reading in 2215 bytes of o8r text
+[Wed May 15 19:04:57 2024]: ignoring notes in o8r
+[Wed May 15 19:04:57 2024]: ignoring plots in o8r
+[Wed May 15 19:04:57 2024]: running...
+[Wed May 15 19:04:57 2024]: running limit cycle continuation
+[Wed May 15 19:04:57 2024]: running for par=S, label=5
+[Wed May 15 19:04:57 2024]: LibAUTO: starting thread
+[Wed May 15 19:04:57 2024]: LibAUTO: thread started
+[Wed May 15 19:04:57 2024]: LibAUTO run time: 0.048 s
+[Wed May 15 19:04:57 2024]: returning 304 data bytes to client
+(0.108 seconds) 
+[Wed May 15 19:04:57 2024]: run complete (0.109 s)
+[Wed May 15 19:04:57 2024]: done running
+[Wed May 15 19:04:57 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:05:52 2024]: link received run message, reading in 2216 bytes of o8r text
+[Wed May 15 19:05:52 2024]: ignoring notes in o8r
+[Wed May 15 19:05:52 2024]: ignoring plots in o8r
+[Wed May 15 19:05:52 2024]: running...
+[Wed May 15 19:05:52 2024]: running limit cycle continuation
+[Wed May 15 19:05:52 2024]: running for par=S, label=3
+[Wed May 15 19:05:52 2024]: LibAUTO: starting thread
+[Wed May 15 19:05:52 2024]: LibAUTO: thread started
+[Wed May 15 19:05:52 2024]: LibAUTO run time: 0.077 s
+[Wed May 15 19:05:52 2024]: returning 152 data bytes to client
+(0.106 seconds) 
+[Wed May 15 19:05:52 2024]: run complete (0.107 s)
+[Wed May 15 19:05:52 2024]: done running
+[Wed May 15 19:05:52 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:05:56 2024]: link received run message, reading in 3313 bytes of o8r text
+[Wed May 15 19:05:56 2024]: ignoring notes in o8r
+[Wed May 15 19:05:56 2024]: ignoring plots in o8r
+[Wed May 15 19:05:56 2024]: running...
+[Wed May 15 19:05:56 2024]: running limit cycle continuation
+[Wed May 15 19:05:56 2024]: running for par=S, label=3
+[Wed May 15 19:05:56 2024]: LibAUTO: starting thread
+[Wed May 15 19:05:56 2024]: LibAUTO: thread started
+[Wed May 15 19:05:56 2024]: LibAUTO run time: 0.259 s
+[Wed May 15 19:05:56 2024]: returning 4256 data bytes to client
+(0.333 seconds) 
+[Wed May 15 19:05:56 2024]: run complete (0.334 s)
+[Wed May 15 19:05:56 2024]: done running
+[Wed May 15 19:05:56 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:06:11 2024]: link received run message, reading in 3306 bytes of o8r text
+[Wed May 15 19:06:11 2024]: ignoring notes in o8r
+[Wed May 15 19:06:11 2024]: ignoring plots in o8r
+[Wed May 15 19:06:11 2024]: running...
+[Wed May 15 19:06:11 2024]: running limit cycle continuation
+[Wed May 15 19:06:11 2024]: running for par=S, label=3
+[Wed May 15 19:06:11 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:11 2024]: LibAUTO: thread started
+[Wed May 15 19:06:11 2024]: LibAUTO run time: 0.128 s
+[Wed May 15 19:06:11 2024]: returning 1824 data bytes to client
+(0.237 seconds) 
+[Wed May 15 19:06:11 2024]: run complete (0.238 s)
+[Wed May 15 19:06:11 2024]: done running
+[Wed May 15 19:06:11 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:06:14 2024]: link received run message, reading in 3305 bytes of o8r text
+[Wed May 15 19:06:14 2024]: ignoring notes in o8r
+[Wed May 15 19:06:14 2024]: ignoring plots in o8r
+[Wed May 15 19:06:14 2024]: running...
+[Wed May 15 19:06:14 2024]: running limit cycle continuation
+[Wed May 15 19:06:14 2024]: running for par=S, label=3
+[Wed May 15 19:06:14 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:14 2024]: LibAUTO: thread started
+[Wed May 15 19:06:15 2024]: LibAUTO run time: 0.079 s
+[Wed May 15 19:06:15 2024]: returning 760 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:06:15 2024]: run complete (0.122 s)
+[Wed May 15 19:06:15 2024]: done running
+[Wed May 15 19:06:15 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:06:17 2024]: link received run message, reading in 3306 bytes of o8r text
+[Wed May 15 19:06:17 2024]: ignoring notes in o8r
+[Wed May 15 19:06:17 2024]: ignoring plots in o8r
+[Wed May 15 19:06:17 2024]: running...
+[Wed May 15 19:06:17 2024]: running limit cycle continuation
+[Wed May 15 19:06:17 2024]: running for par=S, label=3
+[Wed May 15 19:06:17 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:17 2024]: LibAUTO: thread started
+[Wed May 15 19:06:17 2024]: LibAUTO run time: 0.098 s
+[Wed May 15 19:06:17 2024]: returning 1292 data bytes to client
+(0.107 seconds) 
+[Wed May 15 19:06:17 2024]: run complete (0.107 s)
+[Wed May 15 19:06:17 2024]: done running
+[Wed May 15 19:06:17 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:06:20 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:06:20 2024]: ignoring notes in o8r
+[Wed May 15 19:06:20 2024]: ignoring plots in o8r
+[Wed May 15 19:06:20 2024]: running...
+[Wed May 15 19:06:20 2024]: running limit cycle continuation
+[Wed May 15 19:06:20 2024]: running for par=S, label=3
+[Wed May 15 19:06:20 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:20 2024]: LibAUTO: thread started
+[Wed May 15 19:06:21 2024]: LibAUTO run time: 0.795 s
+[Wed May 15 19:06:21 2024]: returning 17404 data bytes to client
+(0.901 seconds) 
+[Wed May 15 19:06:21 2024]: run complete (0.901 s)
+[Wed May 15 19:06:21 2024]: done running
+[Wed May 15 19:06:21 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:06:25 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:06:25 2024]: ignoring notes in o8r
+[Wed May 15 19:06:25 2024]: ignoring plots in o8r
+[Wed May 15 19:06:25 2024]: running...
+[Wed May 15 19:06:25 2024]: running limit cycle continuation
+[Wed May 15 19:06:25 2024]: running for par=S, label=3
+[Wed May 15 19:06:25 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:25 2024]: LibAUTO: thread started
+[Wed May 15 19:06:26 2024]: LibAUTO run time: 0.6 s
+[Wed May 15 19:06:26 2024]: returning 12996 data bytes to client
+(0.668 seconds) 
+[Wed May 15 19:06:26 2024]: run complete (0.669 s)
+[Wed May 15 19:06:26 2024]: done running
+[Wed May 15 19:06:26 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:06:29 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:06:29 2024]: ignoring notes in o8r
+[Wed May 15 19:06:29 2024]: ignoring plots in o8r
+[Wed May 15 19:06:29 2024]: running...
+[Wed May 15 19:06:29 2024]: running limit cycle continuation
+[Wed May 15 19:06:29 2024]: running for par=S, label=3
+[Wed May 15 19:06:29 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:29 2024]: LibAUTO: thread started
+[Wed May 15 19:06:30 2024]: LibAUTO run time: 0.727 s
+[Wed May 15 19:06:30 2024]: returning 17328 data bytes to client
+(0.797 seconds) 
+[Wed May 15 19:06:30 2024]: run complete (0.798 s)
+[Wed May 15 19:06:30 2024]: done running
+[Wed May 15 19:06:30 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:06:32 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:06:32 2024]: ignoring notes in o8r
+[Wed May 15 19:06:32 2024]: ignoring plots in o8r
+[Wed May 15 19:06:32 2024]: running...
+[Wed May 15 19:06:32 2024]: running limit cycle continuation
+[Wed May 15 19:06:32 2024]: running for par=S, label=3
+[Wed May 15 19:06:32 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:32 2024]: LibAUTO: thread started
+[Wed May 15 19:06:32 2024]: LibAUTO run time: 0.086 s
+[Wed May 15 19:06:32 2024]: returning 1140 data bytes to client
+(0.122 seconds) 
+[Wed May 15 19:06:32 2024]: run complete (0.122 s)
+[Wed May 15 19:06:32 2024]: done running
+[Wed May 15 19:06:32 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:06:35 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:06:35 2024]: ignoring notes in o8r
+[Wed May 15 19:06:35 2024]: ignoring plots in o8r
+[Wed May 15 19:06:35 2024]: running...
+[Wed May 15 19:06:35 2024]: running limit cycle continuation
+[Wed May 15 19:06:35 2024]: running for par=S, label=3
+[Wed May 15 19:06:35 2024]: LibAUTO: starting thread
+[Wed May 15 19:06:35 2024]: LibAUTO: thread started
+[Wed May 15 19:06:36 2024]: LibAUTO run time: 0.996 s
+[Wed May 15 19:06:36 2024]: returning 25308 data bytes to client
+(1.115 seconds) 
+[Wed May 15 19:06:36 2024]: run complete (1.116 s)
+[Wed May 15 19:06:36 2024]: done running
+[Wed May 15 19:06:36 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:07:25 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:25 2024]: ignoring notes in o8r
+[Wed May 15 19:07:25 2024]: ignoring plots in o8r
+[Wed May 15 19:07:25 2024]: running...
+[Wed May 15 19:07:25 2024]: running limit cycle continuation
+[Wed May 15 19:07:25 2024]: running for par=S, label=3
+[Wed May 15 19:07:25 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:25 2024]: LibAUTO: thread started
+[Wed May 15 19:07:26 2024]: LibAUTO run time: 0.795 s
+[Wed May 15 19:07:26 2024]: returning 20444 data bytes to client
+(0.91 seconds) 
+[Wed May 15 19:07:26 2024]: run complete (0.91 s)
+[Wed May 15 19:07:26 2024]: done running
+[Wed May 15 19:07:26 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:07:29 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:29 2024]: ignoring notes in o8r
+[Wed May 15 19:07:29 2024]: ignoring plots in o8r
+[Wed May 15 19:07:29 2024]: running...
+[Wed May 15 19:07:29 2024]: running limit cycle continuation
+[Wed May 15 19:07:29 2024]: running for par=S, label=3
+[Wed May 15 19:07:29 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:29 2024]: LibAUTO: thread started
+[Wed May 15 19:07:30 2024]: LibAUTO run time: 0.886 s
+[Wed May 15 19:07:30 2024]: returning 23560 data bytes to client
+(1.022 seconds) 
+[Wed May 15 19:07:30 2024]: run complete (1.024 s)
+[Wed May 15 19:07:30 2024]: done running
+[Wed May 15 19:07:30 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:07:33 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:33 2024]: ignoring notes in o8r
+[Wed May 15 19:07:33 2024]: ignoring plots in o8r
+[Wed May 15 19:07:33 2024]: running...
+[Wed May 15 19:07:33 2024]: running limit cycle continuation
+[Wed May 15 19:07:33 2024]: running for par=S, label=3
+[Wed May 15 19:07:33 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:33 2024]: LibAUTO: thread started
+[Wed May 15 19:07:33 2024]: LibAUTO run time: 0.073 s
+[Wed May 15 19:07:33 2024]: returning 988 data bytes to client
+(0.116 seconds) 
+[Wed May 15 19:07:33 2024]: run complete (0.117 s)
+[Wed May 15 19:07:33 2024]: done running
+[Wed May 15 19:07:33 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:07:36 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:36 2024]: ignoring notes in o8r
+[Wed May 15 19:07:36 2024]: ignoring plots in o8r
+[Wed May 15 19:07:36 2024]: running...
+[Wed May 15 19:07:36 2024]: running limit cycle continuation
+[Wed May 15 19:07:36 2024]: running for par=S, label=3
+[Wed May 15 19:07:36 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:36 2024]: LibAUTO: thread started
+[Wed May 15 19:07:36 2024]: LibAUTO run time: 0.069 s
+[Wed May 15 19:07:36 2024]: returning 456 data bytes to client
+(0.109 seconds) 
+[Wed May 15 19:07:36 2024]: run complete (0.111 s)
+[Wed May 15 19:07:36 2024]: done running
+[Wed May 15 19:07:36 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:07:39 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:39 2024]: ignoring notes in o8r
+[Wed May 15 19:07:39 2024]: ignoring plots in o8r
+[Wed May 15 19:07:39 2024]: running...
+[Wed May 15 19:07:39 2024]: running limit cycle continuation
+[Wed May 15 19:07:39 2024]: running for par=S, label=3
+[Wed May 15 19:07:39 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:39 2024]: LibAUTO: thread started
+[Wed May 15 19:07:39 2024]: LibAUTO run time: 0.04 s
+[Wed May 15 19:07:39 2024]: returning 228 data bytes to client
+(0.119 seconds) 
+[Wed May 15 19:07:39 2024]: run complete (0.12 s)
+[Wed May 15 19:07:39 2024]: done running
+[Wed May 15 19:07:39 2024]: returning (roughly) 673 log bytes to client
+[Wed May 15 19:07:42 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:07:42 2024]: ignoring notes in o8r
+[Wed May 15 19:07:42 2024]: ignoring plots in o8r
+[Wed May 15 19:07:42 2024]: running...
+[Wed May 15 19:07:42 2024]: running limit cycle continuation
+[Wed May 15 19:07:42 2024]: running for par=S, label=3
+[Wed May 15 19:07:42 2024]: LibAUTO: starting thread
+[Wed May 15 19:07:42 2024]: LibAUTO: thread started
+[Wed May 15 19:07:43 2024]: LibAUTO run time: 1.069 s
+[Wed May 15 19:07:43 2024]: returning 27056 data bytes to client
+(1.117 seconds) 
+[Wed May 15 19:07:43 2024]: run complete (1.118 s)
+[Wed May 15 19:07:43 2024]: done running
+[Wed May 15 19:07:43 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:08:08 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:08:08 2024]: ignoring notes in o8r
+[Wed May 15 19:08:08 2024]: ignoring plots in o8r
+[Wed May 15 19:08:08 2024]: running...
+[Wed May 15 19:08:08 2024]: running limit cycle continuation
+[Wed May 15 19:08:08 2024]: running for par=S, label=3
+[Wed May 15 19:08:08 2024]: LibAUTO: starting thread
+[Wed May 15 19:08:08 2024]: LibAUTO: thread started
+[Wed May 15 19:08:09 2024]: LibAUTO run time: 1.113 s
+[Wed May 15 19:08:09 2024]: returning 28652 data bytes to client
+(1.25 seconds) 
+[Wed May 15 19:08:09 2024]: run complete (1.251 s)
+[Wed May 15 19:08:09 2024]: done running
+[Wed May 15 19:08:09 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:08:23 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:08:23 2024]: ignoring notes in o8r
+[Wed May 15 19:08:23 2024]: ignoring plots in o8r
+[Wed May 15 19:08:23 2024]: running...
+[Wed May 15 19:08:23 2024]: running limit cycle continuation
+[Wed May 15 19:08:23 2024]: running for par=S, label=3
+[Wed May 15 19:08:23 2024]: LibAUTO: starting thread
+[Wed May 15 19:08:23 2024]: LibAUTO: thread started
+[Wed May 15 19:08:23 2024]: LibAUTO run time: 0.826 s
+[Wed May 15 19:08:24 2024]: returning 22192 data bytes to client
+(0.905 seconds) 
+[Wed May 15 19:08:24 2024]: run complete (0.906 s)
+[Wed May 15 19:08:24 2024]: done running
+[Wed May 15 19:08:24 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:09:10 2024]: link received run message, reading in 2216 bytes of o8r text
+[Wed May 15 19:09:10 2024]: ignoring notes in o8r
+[Wed May 15 19:09:10 2024]: ignoring plots in o8r
+[Wed May 15 19:09:10 2024]: running...
+[Wed May 15 19:09:10 2024]: running limit cycle continuation
+[Wed May 15 19:09:10 2024]: running for par=S, label=5
+[Wed May 15 19:09:10 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:10 2024]: LibAUTO: thread started
+[Wed May 15 19:09:10 2024]: LibAUTO run time: 0.086 s
+[Wed May 15 19:09:10 2024]: returning 532 data bytes to client
+(0.114 seconds) 
+[Wed May 15 19:09:10 2024]: run complete (0.115 s)
+[Wed May 15 19:09:10 2024]: done running
+[Wed May 15 19:09:10 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:14 2024]: link received run message, reading in 3321 bytes of o8r text
+[Wed May 15 19:09:14 2024]: ignoring notes in o8r
+[Wed May 15 19:09:14 2024]: ignoring plots in o8r
+[Wed May 15 19:09:14 2024]: running...
+[Wed May 15 19:09:14 2024]: running limit cycle continuation
+[Wed May 15 19:09:14 2024]: running for par=S, label=5
+[Wed May 15 19:09:14 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:14 2024]: LibAUTO: thread started
+[Wed May 15 19:09:14 2024]: LibAUTO run time: 0.05 s
+[Wed May 15 19:09:14 2024]: returning 532 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:09:14 2024]: run complete (0.122 s)
+[Wed May 15 19:09:14 2024]: done running
+[Wed May 15 19:09:14 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:09:17 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:17 2024]: ignoring notes in o8r
+[Wed May 15 19:09:17 2024]: ignoring plots in o8r
+[Wed May 15 19:09:17 2024]: running...
+[Wed May 15 19:09:17 2024]: running limit cycle continuation
+[Wed May 15 19:09:17 2024]: running for par=S, label=5
+[Wed May 15 19:09:17 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:17 2024]: LibAUTO: thread started
+[Wed May 15 19:09:17 2024]: LibAUTO run time: 0.042 s
+[Wed May 15 19:09:17 2024]: returning 304 data bytes to client
+(0.124 seconds) 
+[Wed May 15 19:09:17 2024]: run complete (0.125 s)
+[Wed May 15 19:09:17 2024]: done running
+[Wed May 15 19:09:17 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:21 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:21 2024]: ignoring notes in o8r
+[Wed May 15 19:09:21 2024]: ignoring plots in o8r
+[Wed May 15 19:09:21 2024]: running...
+[Wed May 15 19:09:21 2024]: running limit cycle continuation
+[Wed May 15 19:09:21 2024]: running for par=S, label=5
+[Wed May 15 19:09:21 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:21 2024]: LibAUTO: thread started
+[Wed May 15 19:09:21 2024]: LibAUTO run time: 0.056 s
+[Wed May 15 19:09:21 2024]: returning 608 data bytes to client
+(0.113 seconds) 
+[Wed May 15 19:09:21 2024]: run complete (0.114 s)
+[Wed May 15 19:09:21 2024]: done running
+[Wed May 15 19:09:21 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:24 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:24 2024]: ignoring notes in o8r
+[Wed May 15 19:09:24 2024]: ignoring plots in o8r
+[Wed May 15 19:09:24 2024]: running...
+[Wed May 15 19:09:24 2024]: running limit cycle continuation
+[Wed May 15 19:09:24 2024]: running for par=S, label=5
+[Wed May 15 19:09:24 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:24 2024]: LibAUTO: thread started
+[Wed May 15 19:09:24 2024]: LibAUTO run time: 0.062 s
+[Wed May 15 19:09:24 2024]: returning 608 data bytes to client
+(0.118 seconds) 
+[Wed May 15 19:09:24 2024]: run complete (0.119 s)
+[Wed May 15 19:09:24 2024]: done running
+[Wed May 15 19:09:24 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:26 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:26 2024]: ignoring notes in o8r
+[Wed May 15 19:09:26 2024]: ignoring plots in o8r
+[Wed May 15 19:09:26 2024]: running...
+[Wed May 15 19:09:26 2024]: running limit cycle continuation
+[Wed May 15 19:09:26 2024]: running for par=S, label=5
+[Wed May 15 19:09:26 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:26 2024]: LibAUTO: thread started
+[Wed May 15 19:09:26 2024]: LibAUTO run time: 0.045 s
+[Wed May 15 19:09:26 2024]: returning 228 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:09:26 2024]: run complete (0.122 s)
+[Wed May 15 19:09:26 2024]: done running
+[Wed May 15 19:09:26 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:28 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:28 2024]: ignoring notes in o8r
+[Wed May 15 19:09:28 2024]: ignoring plots in o8r
+[Wed May 15 19:09:28 2024]: running...
+[Wed May 15 19:09:28 2024]: running limit cycle continuation
+[Wed May 15 19:09:28 2024]: running for par=S, label=5
+[Wed May 15 19:09:28 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:28 2024]: LibAUTO: thread started
+[Wed May 15 19:09:29 2024]: LibAUTO run time: 0.075 s
+[Wed May 15 19:09:29 2024]: returning 228 data bytes to client
+(0.122 seconds) 
+[Wed May 15 19:09:29 2024]: run complete (0.122 s)
+[Wed May 15 19:09:29 2024]: done running
+[Wed May 15 19:09:29 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:31 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:31 2024]: ignoring notes in o8r
+[Wed May 15 19:09:31 2024]: ignoring plots in o8r
+[Wed May 15 19:09:31 2024]: running...
+[Wed May 15 19:09:31 2024]: running limit cycle continuation
+[Wed May 15 19:09:31 2024]: running for par=S, label=5
+[Wed May 15 19:09:31 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:31 2024]: LibAUTO: thread started
+[Wed May 15 19:09:31 2024]: LibAUTO run time: 0.08 s
+[Wed May 15 19:09:31 2024]: returning 684 data bytes to client
+(0.127 seconds) 
+[Wed May 15 19:09:31 2024]: run complete (0.128 s)
+[Wed May 15 19:09:31 2024]: done running
+[Wed May 15 19:09:31 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:09:34 2024]: link received run message, reading in 3311 bytes of o8r text
+[Wed May 15 19:09:34 2024]: ignoring notes in o8r
+[Wed May 15 19:09:34 2024]: ignoring plots in o8r
+[Wed May 15 19:09:34 2024]: running...
+[Wed May 15 19:09:34 2024]: running limit cycle continuation
+[Wed May 15 19:09:34 2024]: running for par=S, label=5
+[Wed May 15 19:09:34 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:34 2024]: LibAUTO: thread started
+[Wed May 15 19:09:34 2024]: LibAUTO run time: 0.051 s
+[Wed May 15 19:09:34 2024]: returning 456 data bytes to client
+(0.122 seconds) 
+[Wed May 15 19:09:34 2024]: run complete (0.123 s)
+[Wed May 15 19:09:34 2024]: done running
+[Wed May 15 19:09:34 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:43 2024]: link received run message, reading in 3320 bytes of o8r text
+[Wed May 15 19:09:43 2024]: ignoring notes in o8r
+[Wed May 15 19:09:43 2024]: ignoring plots in o8r
+[Wed May 15 19:09:43 2024]: running...
+[Wed May 15 19:09:43 2024]: running limit cycle continuation
+[Wed May 15 19:09:43 2024]: running for par=S, label=5
+[Wed May 15 19:09:43 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:43 2024]: LibAUTO: thread started
+[Wed May 15 19:09:44 2024]: LibAUTO run time: 0.062 s
+[Wed May 15 19:09:44 2024]: returning 684 data bytes to client
+(0.123 seconds) 
+[Wed May 15 19:09:44 2024]: run complete (0.124 s)
+[Wed May 15 19:09:44 2024]: done running
+[Wed May 15 19:09:44 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:09:47 2024]: link received run message, reading in 3322 bytes of o8r text
+[Wed May 15 19:09:47 2024]: ignoring notes in o8r
+[Wed May 15 19:09:47 2024]: ignoring plots in o8r
+[Wed May 15 19:09:47 2024]: running...
+[Wed May 15 19:09:47 2024]: running limit cycle continuation
+[Wed May 15 19:09:47 2024]: running for par=S, label=5
+[Wed May 15 19:09:47 2024]: LibAUTO: starting thread
+[Wed May 15 19:09:47 2024]: LibAUTO: thread started
+[Wed May 15 19:09:47 2024]: LibAUTO run time: 0.059 s
+[Wed May 15 19:09:47 2024]: returning 684 data bytes to client
+(0.115 seconds) 
+[Wed May 15 19:09:47 2024]: run complete (0.115 s)
+[Wed May 15 19:09:47 2024]: done running
+[Wed May 15 19:09:47 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:10:27 2024]: link received run message, reading in 3322 bytes of o8r text
+[Wed May 15 19:10:27 2024]: ignoring notes in o8r
+[Wed May 15 19:10:27 2024]: ignoring plots in o8r
+[Wed May 15 19:10:27 2024]: running...
+[Wed May 15 19:10:27 2024]: running limit cycle continuation
+[Wed May 15 19:10:27 2024]: running for par=S, label=5
+[Wed May 15 19:10:27 2024]: LibAUTO: starting thread
+[Wed May 15 19:10:27 2024]: LibAUTO: thread started
+[Wed May 15 19:10:27 2024]: LibAUTO run time: 0.047 s
+[Wed May 15 19:10:27 2024]: returning 304 data bytes to client
+(0.12 seconds) 
+[Wed May 15 19:10:27 2024]: run complete (0.121 s)
+[Wed May 15 19:10:27 2024]: done running
+[Wed May 15 19:10:27 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:10:30 2024]: link received run message, reading in 3322 bytes of o8r text
+[Wed May 15 19:10:30 2024]: ignoring notes in o8r
+[Wed May 15 19:10:30 2024]: ignoring plots in o8r
+[Wed May 15 19:10:30 2024]: running...
+[Wed May 15 19:10:30 2024]: running limit cycle continuation
+[Wed May 15 19:10:30 2024]: running for par=S, label=5
+[Wed May 15 19:10:30 2024]: LibAUTO: starting thread
+[Wed May 15 19:10:30 2024]: LibAUTO: thread started
+[Wed May 15 19:10:30 2024]: LibAUTO run time: 0.048 s
+[Wed May 15 19:10:30 2024]: returning 304 data bytes to client
+(0.127 seconds) 
+[Wed May 15 19:10:30 2024]: run complete (0.127 s)
+[Wed May 15 19:10:30 2024]: done running
+[Wed May 15 19:10:30 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:10:34 2024]: link received run message, reading in 3322 bytes of o8r text
+[Wed May 15 19:10:34 2024]: ignoring notes in o8r
+[Wed May 15 19:10:34 2024]: ignoring plots in o8r
+[Wed May 15 19:10:34 2024]: running...
+[Wed May 15 19:10:34 2024]: running limit cycle continuation
+[Wed May 15 19:10:34 2024]: running for par=S, label=5
+[Wed May 15 19:10:34 2024]: LibAUTO: starting thread
+[Wed May 15 19:10:34 2024]: LibAUTO: thread started
+[Wed May 15 19:10:34 2024]: LibAUTO run time: 0.076 s
+[Wed May 15 19:10:34 2024]: returning 608 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:10:34 2024]: run complete (0.121 s)
+[Wed May 15 19:10:34 2024]: done running
+[Wed May 15 19:10:34 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:10:42 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:10:42 2024]: ignoring notes in o8r
+[Wed May 15 19:10:42 2024]: ignoring plots in o8r
+[Wed May 15 19:10:42 2024]: running...
+[Wed May 15 19:10:42 2024]: running limit cycle continuation
+[Wed May 15 19:10:42 2024]: running for par=S, label=3
+[Wed May 15 19:10:42 2024]: LibAUTO: starting thread
+[Wed May 15 19:10:42 2024]: LibAUTO: thread started
+[Wed May 15 19:10:42 2024]: LibAUTO run time: 0.097 s
+[Wed May 15 19:10:42 2024]: returning 1368 data bytes to client
+(0.112 seconds) 
+[Wed May 15 19:10:42 2024]: run complete (0.113 s)
+[Wed May 15 19:10:42 2024]: done running
+[Wed May 15 19:10:42 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:10:45 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:10:45 2024]: ignoring notes in o8r
+[Wed May 15 19:10:45 2024]: ignoring plots in o8r
+[Wed May 15 19:10:45 2024]: running...
+[Wed May 15 19:10:45 2024]: running limit cycle continuation
+[Wed May 15 19:10:45 2024]: running for par=S, label=3
+[Wed May 15 19:10:45 2024]: LibAUTO: starting thread
+[Wed May 15 19:10:45 2024]: LibAUTO: thread started
+[Wed May 15 19:10:46 2024]: LibAUTO run time: 1.061 s
+[Wed May 15 19:10:46 2024]: returning 28500 data bytes to client
+(1.118 seconds) 
+[Wed May 15 19:10:46 2024]: run complete (1.119 s)
+[Wed May 15 19:10:46 2024]: done running
+[Wed May 15 19:10:46 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:11:10 2024]: link received run message, reading in 2215 bytes of o8r text
+[Wed May 15 19:11:10 2024]: ignoring notes in o8r
+[Wed May 15 19:11:10 2024]: ignoring plots in o8r
+[Wed May 15 19:11:10 2024]: running...
+[Wed May 15 19:11:10 2024]: running limit cycle continuation
+[Wed May 15 19:11:10 2024]: running for par=S, label=3
+[Wed May 15 19:11:10 2024]: LibAUTO: starting thread
+[Wed May 15 19:11:10 2024]: LibAUTO: thread started
+[Wed May 15 19:11:10 2024]: LibAUTO run time: 0.079 s
+[Wed May 15 19:11:10 2024]: returning 228 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:11:10 2024]: run complete (0.121 s)
+[Wed May 15 19:11:10 2024]: done running
+[Wed May 15 19:11:10 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:11:13 2024]: link received run message, reading in 3312 bytes of o8r text
+[Wed May 15 19:11:13 2024]: ignoring notes in o8r
+[Wed May 15 19:11:13 2024]: ignoring plots in o8r
+[Wed May 15 19:11:13 2024]: running...
+[Wed May 15 19:11:13 2024]: running limit cycle continuation
+[Wed May 15 19:11:13 2024]: running for par=S, label=3
+[Wed May 15 19:11:13 2024]: LibAUTO: starting thread
+[Wed May 15 19:11:13 2024]: LibAUTO: thread started
+[Wed May 15 19:11:13 2024]: LibAUTO run time: 0.045 s
+[Wed May 15 19:11:13 2024]: returning 228 data bytes to client
+(0.111 seconds) 
+[Wed May 15 19:11:13 2024]: run complete (0.112 s)
+[Wed May 15 19:11:13 2024]: done running
+[Wed May 15 19:11:13 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:11:59 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:11:59 2024]: ignoring notes in o8r
+[Wed May 15 19:11:59 2024]: ignoring plots in o8r
+[Wed May 15 19:11:59 2024]: running...
+[Wed May 15 19:11:59 2024]: running limit cycle continuation
+[Wed May 15 19:11:59 2024]: running for par=S, label=3
+[Wed May 15 19:11:59 2024]: LibAUTO: starting thread
+[Wed May 15 19:11:59 2024]: LibAUTO: thread started
+[Wed May 15 19:11:59 2024]: LibAUTO run time: 0.045 s
+[Wed May 15 19:11:59 2024]: returning 228 data bytes to client
+(0.126 seconds) 
+[Wed May 15 19:11:59 2024]: run complete (0.127 s)
+[Wed May 15 19:11:59 2024]: done running
+[Wed May 15 19:11:59 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:12:02 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:12:02 2024]: ignoring notes in o8r
+[Wed May 15 19:12:02 2024]: ignoring plots in o8r
+[Wed May 15 19:12:02 2024]: running...
+[Wed May 15 19:12:02 2024]: running limit cycle continuation
+[Wed May 15 19:12:02 2024]: running for par=S, label=3
+[Wed May 15 19:12:02 2024]: LibAUTO: starting thread
+[Wed May 15 19:12:02 2024]: LibAUTO: thread started
+[Wed May 15 19:12:02 2024]: LibAUTO run time: 0.851 s
+[Wed May 15 19:12:02 2024]: returning 22724 data bytes to client
+(0.903 seconds) 
+[Wed May 15 19:12:02 2024]: run complete (0.904 s)
+[Wed May 15 19:12:02 2024]: done running
+[Wed May 15 19:12:02 2024]: returning (roughly) 677 log bytes to client
+[Wed May 15 19:12:54 2024]: link received run message, reading in 2215 bytes of o8r text
+[Wed May 15 19:12:54 2024]: ignoring notes in o8r
+[Wed May 15 19:12:54 2024]: ignoring plots in o8r
+[Wed May 15 19:12:54 2024]: running...
+[Wed May 15 19:12:54 2024]: running limit cycle continuation
+[Wed May 15 19:12:54 2024]: running for par=S, label=3
+[Wed May 15 19:12:54 2024]: LibAUTO: starting thread
+[Wed May 15 19:12:54 2024]: LibAUTO: thread started
+[Wed May 15 19:12:54 2024]: LibAUTO run time: 0.077 s
+[Wed May 15 19:12:54 2024]: returning 988 data bytes to client
+(0.114 seconds) 
+[Wed May 15 19:12:54 2024]: run complete (0.116 s)
+[Wed May 15 19:12:54 2024]: done running
+[Wed May 15 19:12:54 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:04 2024]: link received run message, reading in 3317 bytes of o8r text
+[Wed May 15 19:13:04 2024]: ignoring notes in o8r
+[Wed May 15 19:13:04 2024]: ignoring plots in o8r
+[Wed May 15 19:13:04 2024]: running...
+[Wed May 15 19:13:04 2024]: running limit cycle continuation
+[Wed May 15 19:13:04 2024]: running for par=S, label=3
+[Wed May 15 19:13:04 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:04 2024]: LibAUTO: thread started
+[Wed May 15 19:13:04 2024]: LibAUTO run time: 0.066 s
+[Wed May 15 19:13:04 2024]: returning 912 data bytes to client
+(0.108 seconds) 
+[Wed May 15 19:13:04 2024]: run complete (0.109 s)
+[Wed May 15 19:13:04 2024]: done running
+[Wed May 15 19:13:04 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:07 2024]: link received run message, reading in 3316 bytes of o8r text
+[Wed May 15 19:13:07 2024]: ignoring notes in o8r
+[Wed May 15 19:13:07 2024]: ignoring plots in o8r
+[Wed May 15 19:13:07 2024]: running...
+[Wed May 15 19:13:07 2024]: running limit cycle continuation
+[Wed May 15 19:13:07 2024]: running for par=S, label=3
+[Wed May 15 19:13:07 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:07 2024]: LibAUTO: thread started
+[Wed May 15 19:13:07 2024]: LibAUTO run time: 0.059 s
+[Wed May 15 19:13:07 2024]: returning 608 data bytes to client
+(0.114 seconds) 
+[Wed May 15 19:13:07 2024]: run complete (0.115 s)
+[Wed May 15 19:13:07 2024]: done running
+[Wed May 15 19:13:07 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:10 2024]: link received run message, reading in 3315 bytes of o8r text
+[Wed May 15 19:13:10 2024]: ignoring notes in o8r
+[Wed May 15 19:13:10 2024]: ignoring plots in o8r
+[Wed May 15 19:13:10 2024]: running...
+[Wed May 15 19:13:10 2024]: running limit cycle continuation
+[Wed May 15 19:13:10 2024]: running for par=S, label=3
+[Wed May 15 19:13:10 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:10 2024]: LibAUTO: thread started
+[Wed May 15 19:13:10 2024]: LibAUTO run time: 0.067 s
+[Wed May 15 19:13:10 2024]: returning 608 data bytes to client
+(0.12 seconds) 
+[Wed May 15 19:13:10 2024]: run complete (0.12 s)
+[Wed May 15 19:13:10 2024]: done running
+[Wed May 15 19:13:10 2024]: returning (roughly) 673 log bytes to client
+[Wed May 15 19:13:13 2024]: link received run message, reading in 3315 bytes of o8r text
+[Wed May 15 19:13:13 2024]: ignoring notes in o8r
+[Wed May 15 19:13:13 2024]: ignoring plots in o8r
+[Wed May 15 19:13:13 2024]: running...
+[Wed May 15 19:13:13 2024]: running limit cycle continuation
+[Wed May 15 19:13:13 2024]: running for par=S, label=3
+[Wed May 15 19:13:13 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:13 2024]: LibAUTO: thread started
+[Wed May 15 19:13:13 2024]: LibAUTO run time: 0.063 s
+[Wed May 15 19:13:13 2024]: returning 912 data bytes to client
+(0.11 seconds) 
+[Wed May 15 19:13:13 2024]: run complete (0.111 s)
+[Wed May 15 19:13:13 2024]: done running
+[Wed May 15 19:13:13 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:13:16 2024]: link received run message, reading in 3316 bytes of o8r text
+[Wed May 15 19:13:16 2024]: ignoring notes in o8r
+[Wed May 15 19:13:16 2024]: ignoring plots in o8r
+[Wed May 15 19:13:16 2024]: running...
+[Wed May 15 19:13:16 2024]: running limit cycle continuation
+[Wed May 15 19:13:16 2024]: running for par=S, label=3
+[Wed May 15 19:13:16 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:16 2024]: LibAUTO: thread started
+[Wed May 15 19:13:16 2024]: LibAUTO run time: 0.041 s
+[Wed May 15 19:13:16 2024]: returning 228 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:13:16 2024]: run complete (0.122 s)
+[Wed May 15 19:13:16 2024]: done running
+[Wed May 15 19:13:16 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:19 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:19 2024]: ignoring notes in o8r
+[Wed May 15 19:13:19 2024]: ignoring plots in o8r
+[Wed May 15 19:13:19 2024]: running...
+[Wed May 15 19:13:19 2024]: running limit cycle continuation
+[Wed May 15 19:13:19 2024]: running for par=S, label=3
+[Wed May 15 19:13:19 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:19 2024]: LibAUTO: thread started
+[Wed May 15 19:13:19 2024]: LibAUTO run time: 0.036 s
+[Wed May 15 19:13:19 2024]: returning 228 data bytes to client
+(0.114 seconds) 
+[Wed May 15 19:13:19 2024]: run complete (0.115 s)
+[Wed May 15 19:13:19 2024]: done running
+[Wed May 15 19:13:19 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:24 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:24 2024]: ignoring notes in o8r
+[Wed May 15 19:13:24 2024]: ignoring plots in o8r
+[Wed May 15 19:13:24 2024]: running...
+[Wed May 15 19:13:24 2024]: running limit cycle continuation
+[Wed May 15 19:13:24 2024]: running for par=S, label=3
+[Wed May 15 19:13:24 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:24 2024]: LibAUTO: thread started
+[Wed May 15 19:13:24 2024]: LibAUTO run time: 0.04 s
+[Wed May 15 19:13:24 2024]: returning 304 data bytes to client
+(0.117 seconds) 
+[Wed May 15 19:13:24 2024]: run complete (0.118 s)
+[Wed May 15 19:13:24 2024]: done running
+[Wed May 15 19:13:24 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:13:30 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:30 2024]: ignoring notes in o8r
+[Wed May 15 19:13:30 2024]: ignoring plots in o8r
+[Wed May 15 19:13:30 2024]: running...
+[Wed May 15 19:13:30 2024]: running limit cycle continuation
+[Wed May 15 19:13:30 2024]: running for par=S, label=3
+[Wed May 15 19:13:30 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:30 2024]: LibAUTO: thread started
+[Wed May 15 19:13:30 2024]: LibAUTO run time: 0.049 s
+[Wed May 15 19:13:30 2024]: returning 456 data bytes to client
+(0.115 seconds) 
+[Wed May 15 19:13:30 2024]: run complete (0.116 s)
+[Wed May 15 19:13:30 2024]: done running
+[Wed May 15 19:13:30 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:32 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:32 2024]: ignoring notes in o8r
+[Wed May 15 19:13:32 2024]: ignoring plots in o8r
+[Wed May 15 19:13:32 2024]: running...
+[Wed May 15 19:13:32 2024]: running limit cycle continuation
+[Wed May 15 19:13:32 2024]: running for par=S, label=3
+[Wed May 15 19:13:32 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:32 2024]: LibAUTO: thread started
+[Wed May 15 19:13:33 2024]: LibAUTO run time: 0.056 s
+[Wed May 15 19:13:33 2024]: returning 228 data bytes to client
+(0.125 seconds) 
+[Wed May 15 19:13:33 2024]: run complete (0.125 s)
+[Wed May 15 19:13:33 2024]: done running
+[Wed May 15 19:13:33 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:35 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:35 2024]: ignoring notes in o8r
+[Wed May 15 19:13:35 2024]: ignoring plots in o8r
+[Wed May 15 19:13:35 2024]: running...
+[Wed May 15 19:13:35 2024]: running limit cycle continuation
+[Wed May 15 19:13:35 2024]: running for par=S, label=3
+[Wed May 15 19:13:35 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:35 2024]: LibAUTO: thread started
+[Wed May 15 19:13:36 2024]: LibAUTO run time: 0.066 s
+[Wed May 15 19:13:36 2024]: returning 836 data bytes to client
+(0.112 seconds) 
+[Wed May 15 19:13:36 2024]: run complete (0.113 s)
+[Wed May 15 19:13:36 2024]: done running
+[Wed May 15 19:13:36 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:38 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:38 2024]: ignoring notes in o8r
+[Wed May 15 19:13:38 2024]: ignoring plots in o8r
+[Wed May 15 19:13:38 2024]: running...
+[Wed May 15 19:13:38 2024]: running limit cycle continuation
+[Wed May 15 19:13:38 2024]: running for par=S, label=3
+[Wed May 15 19:13:38 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:38 2024]: LibAUTO: thread started
+[Wed May 15 19:13:38 2024]: LibAUTO run time: 0.062 s
+[Wed May 15 19:13:38 2024]: returning 836 data bytes to client
+(0.115 seconds) 
+[Wed May 15 19:13:38 2024]: run complete (0.116 s)
+[Wed May 15 19:13:38 2024]: done running
+[Wed May 15 19:13:38 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:41 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:41 2024]: ignoring notes in o8r
+[Wed May 15 19:13:41 2024]: ignoring plots in o8r
+[Wed May 15 19:13:41 2024]: running...
+[Wed May 15 19:13:41 2024]: running limit cycle continuation
+[Wed May 15 19:13:41 2024]: running for par=S, label=3
+[Wed May 15 19:13:41 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:41 2024]: LibAUTO: thread started
+[Wed May 15 19:13:41 2024]: LibAUTO run time: 0.127 s
+[Wed May 15 19:13:41 2024]: returning 2432 data bytes to client
+(0.228 seconds) 
+[Wed May 15 19:13:41 2024]: run complete (0.229 s)
+[Wed May 15 19:13:41 2024]: done running
+[Wed May 15 19:13:41 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:13:44 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:44 2024]: ignoring notes in o8r
+[Wed May 15 19:13:44 2024]: ignoring plots in o8r
+[Wed May 15 19:13:44 2024]: running...
+[Wed May 15 19:13:44 2024]: running limit cycle continuation
+[Wed May 15 19:13:44 2024]: running for par=S, label=3
+[Wed May 15 19:13:44 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:44 2024]: LibAUTO: thread started
+[Wed May 15 19:13:44 2024]: LibAUTO run time: 0.051 s
+[Wed May 15 19:13:44 2024]: returning 380 data bytes to client
+(0.109 seconds) 
+[Wed May 15 19:13:44 2024]: run complete (0.109 s)
+[Wed May 15 19:13:44 2024]: done running
+[Wed May 15 19:13:44 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:13:47 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:47 2024]: ignoring notes in o8r
+[Wed May 15 19:13:47 2024]: ignoring plots in o8r
+[Wed May 15 19:13:47 2024]: running...
+[Wed May 15 19:13:47 2024]: running limit cycle continuation
+[Wed May 15 19:13:47 2024]: running for par=S, label=3
+[Wed May 15 19:13:47 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:47 2024]: LibAUTO: thread started
+[Wed May 15 19:13:47 2024]: LibAUTO run time: 0.045 s
+[Wed May 15 19:13:47 2024]: returning 304 data bytes to client
+(0.12 seconds) 
+[Wed May 15 19:13:47 2024]: run complete (0.12 s)
+[Wed May 15 19:13:47 2024]: done running
+[Wed May 15 19:13:47 2024]: returning (roughly) 673 log bytes to client
+[Wed May 15 19:13:56 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:13:56 2024]: ignoring notes in o8r
+[Wed May 15 19:13:56 2024]: ignoring plots in o8r
+[Wed May 15 19:13:56 2024]: running...
+[Wed May 15 19:13:56 2024]: running limit cycle continuation
+[Wed May 15 19:13:56 2024]: running for par=S, label=3
+[Wed May 15 19:13:56 2024]: LibAUTO: starting thread
+[Wed May 15 19:13:56 2024]: LibAUTO: thread started
+[Wed May 15 19:13:56 2024]: LibAUTO run time: 0.068 s
+[Wed May 15 19:13:56 2024]: returning 380 data bytes to client
+(0.119 seconds) 
+[Wed May 15 19:13:56 2024]: run complete (0.12 s)
+[Wed May 15 19:13:56 2024]: done running
+[Wed May 15 19:13:56 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:14:27 2024]: link received run message, reading in 3314 bytes of o8r text
+[Wed May 15 19:14:27 2024]: ignoring notes in o8r
+[Wed May 15 19:14:27 2024]: ignoring plots in o8r
+[Wed May 15 19:14:27 2024]: running...
+[Wed May 15 19:14:27 2024]: running limit cycle continuation
+[Wed May 15 19:14:27 2024]: running for par=S, label=3
+[Wed May 15 19:14:27 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:27 2024]: LibAUTO: thread started
+[Wed May 15 19:14:27 2024]: LibAUTO run time: 0.078 s
+[Wed May 15 19:14:27 2024]: returning 608 data bytes to client
+(0.123 seconds) 
+[Wed May 15 19:14:27 2024]: run complete (0.124 s)
+[Wed May 15 19:14:27 2024]: done running
+[Wed May 15 19:14:27 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:14:30 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:30 2024]: ignoring notes in o8r
+[Wed May 15 19:14:30 2024]: ignoring plots in o8r
+[Wed May 15 19:14:30 2024]: running...
+[Wed May 15 19:14:30 2024]: running limit cycle continuation
+[Wed May 15 19:14:30 2024]: running for par=S, label=3
+[Wed May 15 19:14:30 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:30 2024]: LibAUTO: thread started
+[Wed May 15 19:14:30 2024]: LibAUTO run time: 0.081 s
+[Wed May 15 19:14:30 2024]: returning 1292 data bytes to client
+(0.109 seconds) 
+[Wed May 15 19:14:30 2024]: run complete (0.11 s)
+[Wed May 15 19:14:30 2024]: done running
+[Wed May 15 19:14:30 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:14:33 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:33 2024]: ignoring notes in o8r
+[Wed May 15 19:14:33 2024]: ignoring plots in o8r
+[Wed May 15 19:14:33 2024]: running...
+[Wed May 15 19:14:33 2024]: running limit cycle continuation
+[Wed May 15 19:14:33 2024]: running for par=S, label=3
+[Wed May 15 19:14:33 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:33 2024]: LibAUTO: thread started
+[Wed May 15 19:14:33 2024]: LibAUTO run time: 0.04 s
+[Wed May 15 19:14:34 2024]: returning 228 data bytes to client
+(0.122 seconds) 
+[Wed May 15 19:14:34 2024]: run complete (0.122 s)
+[Wed May 15 19:14:34 2024]: done running
+[Wed May 15 19:14:34 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:14:36 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:36 2024]: ignoring notes in o8r
+[Wed May 15 19:14:36 2024]: ignoring plots in o8r
+[Wed May 15 19:14:36 2024]: running...
+[Wed May 15 19:14:36 2024]: running limit cycle continuation
+[Wed May 15 19:14:36 2024]: running for par=S, label=3
+[Wed May 15 19:14:36 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:36 2024]: LibAUTO: thread started
+[Wed May 15 19:14:36 2024]: LibAUTO run time: 0.43 s
+[Wed May 15 19:14:36 2024]: returning 11248 data bytes to client
+(0.451 seconds) 
+[Wed May 15 19:14:36 2024]: run complete (0.452 s)
+[Wed May 15 19:14:36 2024]: done running
+[Wed May 15 19:14:36 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:14:41 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:41 2024]: ignoring notes in o8r
+[Wed May 15 19:14:41 2024]: ignoring plots in o8r
+[Wed May 15 19:14:41 2024]: running...
+[Wed May 15 19:14:41 2024]: running limit cycle continuation
+[Wed May 15 19:14:41 2024]: running for par=S, label=3
+[Wed May 15 19:14:41 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:41 2024]: LibAUTO: thread started
+[Wed May 15 19:14:42 2024]: LibAUTO run time: 0.171 s
+[Wed May 15 19:14:42 2024]: returning 3496 data bytes to client
+(0.229 seconds) 
+[Wed May 15 19:14:42 2024]: run complete (0.229 s)
+[Wed May 15 19:14:42 2024]: done running
+[Wed May 15 19:14:42 2024]: returning (roughly) 676 log bytes to client
+[Wed May 15 19:14:45 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:45 2024]: ignoring notes in o8r
+[Wed May 15 19:14:45 2024]: ignoring plots in o8r
+[Wed May 15 19:14:45 2024]: running...
+[Wed May 15 19:14:45 2024]: running limit cycle continuation
+[Wed May 15 19:14:45 2024]: running for par=S, label=3
+[Wed May 15 19:14:45 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:45 2024]: LibAUTO: thread started
+[Wed May 15 19:14:45 2024]: LibAUTO run time: 0.054 s
+[Wed May 15 19:14:45 2024]: returning 684 data bytes to client
+(0.121 seconds) 
+[Wed May 15 19:14:45 2024]: run complete (0.122 s)
+[Wed May 15 19:14:45 2024]: done running
+[Wed May 15 19:14:45 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:14:48 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:48 2024]: ignoring notes in o8r
+[Wed May 15 19:14:48 2024]: ignoring plots in o8r
+[Wed May 15 19:14:48 2024]: running...
+[Wed May 15 19:14:48 2024]: running limit cycle continuation
+[Wed May 15 19:14:48 2024]: running for par=S, label=3
+[Wed May 15 19:14:48 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:48 2024]: LibAUTO: thread started
+[Wed May 15 19:14:48 2024]: LibAUTO run time: 0.06 s
+[Wed May 15 19:14:49 2024]: returning 304 data bytes to client
+(0.108 seconds) 
+[Wed May 15 19:14:49 2024]: run complete (0.109 s)
+[Wed May 15 19:14:49 2024]: done running
+[Wed May 15 19:14:49 2024]: returning (roughly) 674 log bytes to client
+[Wed May 15 19:14:52 2024]: link received run message, reading in 3304 bytes of o8r text
+[Wed May 15 19:14:52 2024]: ignoring notes in o8r
+[Wed May 15 19:14:52 2024]: ignoring plots in o8r
+[Wed May 15 19:14:52 2024]: running...
+[Wed May 15 19:14:52 2024]: running limit cycle continuation
+[Wed May 15 19:14:52 2024]: running for par=S, label=3
+[Wed May 15 19:14:52 2024]: LibAUTO: starting thread
+[Wed May 15 19:14:52 2024]: LibAUTO: thread started
+[Wed May 15 19:14:52 2024]: LibAUTO run time: 0.049 s
+[Wed May 15 19:14:52 2024]: returning 380 data bytes to client
+(0.113 seconds) 
+[Wed May 15 19:14:52 2024]: run complete (0.114 s)
+[Wed May 15 19:14:52 2024]: done running
+[Wed May 15 19:14:52 2024]: returning (roughly) 675 log bytes to client
+[Wed May 15 19:14:54 2024]: link received quit message, exiting.
+[Wed May 15 19:14:54 2024]: link outfifo: waiting for thread to finish...
+[Wed May 15 19:14:54 2024]: o8core link run time: 614.091 s
+[Wed May 15 19:14:54 2024]: link outfifo run time: 614.091 s
+[Wed May 15 19:14:54 2024]: link outfifo: 308768 bytes in, 308768 bytes out
+[Wed May 15 19:14:54 2024]: all done!

@@ -1,0 +1,16 @@
+# x stands for mRNA
+# y stands for Protein
+
+x'=k1*S*Kd^p/(Kd^p+y^p)-kd_x*x
+y'=ks_y*x-kd_y*y-k2*Et*y/(Km+y+Ki*y^2)
+
+param k1=0.05,kd_x=0.2,kd_y=0.05
+param p=4
+param S=1
+param ks_y=1
+param Kd=1
+param Km=0.1,Ki=2,k2=1,Et=1
+
+init y=1.156,x=0.136
+
+done

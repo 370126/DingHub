@@ -1,0 +1,44 @@
+
+o8core, 2.0.11
+author: Emery Conrad
+build date: Jan 14 2011, 13:23:16
+
+[Thu May 09 00:08:45 2024]: creating logfile o8core_130_0_8_45.log
+[Thu May 09 00:08:45 2024]: initializing link on port 28472
+[Thu May 09 00:08:45 2024]: initializing winsock library
+[Thu May 09 00:08:45 2024]: link port is 28472
+[Thu May 09 00:08:45 2024]: port 28472 is bound
+[Thu May 09 00:08:45 2024]: listening on port 28472
+[Thu May 09 00:08:45 2024]: link outfifo: starting thread
+[Thu May 09 00:08:45 2024]: link outfifo: thread started
+[Thu May 09 00:08:45 2024]: o8core link: starting thread
+[Thu May 09 00:08:45 2024]: o8core link: thread started
+[Thu May 09 00:08:46 2024]: accepted socket connection on port 26575
+[Thu May 09 00:08:46 2024]: link received initialization message, reading in 487 bytes of model text
+[Thu May 09 00:08:46 2024]: ignoring o8mi tag in model init
+[Thu May 09 00:09:02 2024]: link received run message, reading in 2281 bytes of o8r text
+[Thu May 09 00:09:02 2024]: ignoring notes in o8r
+[Thu May 09 00:09:02 2024]: ignoring plots in o8r
+[Thu May 09 00:09:02 2024]: running...
+[Thu May 09 00:09:02 2024]: running a time series
+[Thu May 09 00:09:02 2024]: will run for 50 time units, 500 points
+[Thu May 09 00:09:02 2024]: returning 16032 data bytes to client
+[Thu May 09 00:09:02 2024]: run complete (0 s)
+[Thu May 09 00:09:02 2024]: done running
+[Thu May 09 00:09:02 2024]: returning (roughly) 1359 log bytes to client
+[Thu May 09 00:09:20 2024]: link received run message, reading in 2283 bytes of o8r text
+[Thu May 09 00:09:20 2024]: ignoring notes in o8r
+[Thu May 09 00:09:20 2024]: ignoring plots in o8r
+[Thu May 09 00:09:20 2024]: running...
+[Thu May 09 00:09:20 2024]: running a time series
+[Thu May 09 00:09:20 2024]: will run for 100 time units, 1000 points
+[Thu May 09 00:09:20 2024]: returning 32032 data bytes to client
+[Thu May 09 00:09:20 2024]: run complete (0.002 s)
+[Thu May 09 00:09:20 2024]: done running
+[Thu May 09 00:09:20 2024]: returning (roughly) 504 log bytes to client
+[Thu May 09 00:09:47 2024]: link received quit message, exiting.
+[Thu May 09 00:09:47 2024]: link outfifo: waiting for thread to finish...
+[Thu May 09 00:09:47 2024]: o8core link run time: 61.856 s
+[Thu May 09 00:09:47 2024]: link outfifo run time: 61.856 s
+[Thu May 09 00:09:47 2024]: link outfifo: 48064 bytes in, 48064 bytes out
+[Thu May 09 00:09:47 2024]: all done!

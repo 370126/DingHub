@@ -1,0 +1,22 @@
+## NFL&PFL
+# S(t)=1+4*heav(t-500)-4*heav(t-600)
+x'=V_x*(y1/K_y1x)^n/(1+(y1/K_y1x)^n+(y2/K_y2x)^n)-d_x*x+b_x*(1+4*heav(t-500)-4*heav(t-600))
+# positive
+y1'=V_y1*(x/K_xy1)^n/(1+(x/K_xy1)^n)-d_y1*y1+b_y1  
+# negative
+y2'=V_y2*(x/K_xy2)^n/(1+(x/K_xy2)^n)-d_y2*y2+b_y2
+
+param V_x=1,K_xy1=1,K_xy2=1,K_y1x=1,K_y2x=1,b_x=0.01,b_y1=0.1,b_y2=0.1,d_x=0.2,d_y1=0.2,d_y2=0.02,n=2
+param V_y1=1.4
+    # change U!
+param V_y2=0.2
+
+init x=0.11
+init y1=0.59
+init y2=5.1
+
+
+# 2
+# x=0.11
+# y1=0.59
+# y2=5.08

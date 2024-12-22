@@ -1,0 +1,5 @@
+OUT'=k_out_on*(A)*(1-OUT)-k_out_off*OUT+k_out_min
+A'=(S*(OUT^n/(OUT^n+ec50^n))*(1-A)-A+k_min)*tao_A
+param tao_A=0.5,k_out_on=2,k_out_off=0.3,k_out_min=0.001,ec50=0.35,k_min=0.01,S=1,n=3
+init A=0.01
+init OUT=0.0656
