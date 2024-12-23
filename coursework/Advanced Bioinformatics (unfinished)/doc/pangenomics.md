@@ -179,16 +179,16 @@ odgi stats -i ./out_pggb/*.smooth.final.og -S > ./out_pggb/out_pggb_chrI.fa.smoo
 ```
 
 
-![FIG.2](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.lay.draw_multiqc.png "Fig.2 2D visualization of Pangenome")
+![FIG.2](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.lay.draw_multiqc.png "Fig.2 2D visualization of Pangenome")
 
 
-![FIG.3](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_multiqc.png "Fig.3 1D visualization of Pangenome")
+![FIG.3](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_multiqc.png "Fig.3 1D visualization of Pangenome")
 
 
-![FIG.4](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_O_multiqc.png "Fig.4 0D visualization of Pangenome")
+![FIG.4](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/total_chrI.fa.bf3285f.11fba48.78baeea.smooth.final.og.viz_O_multiqc.png "Fig.4 0D visualization of Pangenome")
 
 
-从上图可以看出，基因组一号染色体的**前$\frac{1}{2}$区段结构变异较大，形成的泛基因组图结构较为复杂**，分叉较多；而在一号染色体**后半部分（除了尾部），不同菌株之间差异较小，形成的泛基因组图结构较简单**。
+从上图可以看出，基因组一号染色体的**前1/2区段结构变异较大，形成的泛基因组图结构较为复杂**，分叉较多；而在一号染色体**后半部分（除了尾部），不同菌株之间差异较小，形成的泛基因组图结构较简单**。
 
 为了更好地反应这一特点，利用vg分别提取染色体前后50bp的序列（相对于AIC.asm01.HP0序列450:500，和35450:35500）的区域，进行可视化：
 
@@ -202,11 +202,28 @@ vg chunk -x ./out_pggb/out_pggb_chrI.smooth.final.vg -p AIC.asm01.HP0#1#chrI#0:3
 > vg chunk -p path究竟是什么我找了很久没找到:( 报错提示是在xg index里，但我也没有找到相关的xg index <br>不过可以先通过其他参数得到一张图(e.g.通过提取结点 -r 50:55)，在图中的最右边即是各个path的名字。
 
 
-![FIG.5](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_450-500_real.png "Fig.5 450:500")
+![FIG.5](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_450-500_real.png "Fig.5 450:500")
 
-![FIG.6](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_35450-35500_real.png "Fig.6 35450:35500")
+![FIG.6](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/out_pggb_chrI.smooth.final.AIC_chrI_35450-35500_real.png "Fig.6 35450:35500")
+
+<br>
+<br>
 
 从上两图可以看出，450：500bp的泛基因组图结构明显比35450：35000bp复杂许多，即不同菌株基因组之间差异较大。
+
+为了探讨为什么基因组某些区域变异较大，在[USCG Genome Browser](https://genome.ucsc.edu/)中查看了[*S. cerevisiae*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=sacCer3&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chrI%3A1%2D230218&hgsid=2404535173_gD4IRHhtaiJYWzLaJ2AZowAUuStW)一号染色体的部分特征，结果发现： 泛基因组中结构变异较大的区域基因密度较低，结构变异较低的区域基因密度较大；但也不能很好的对应。这说明还有其他因素的影响，暂未知，推测可能在染色体前端分布有大量重复序列，对结构维持起到作用。
+
+![FIG.7](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/hgt_genome_2cb09e_7a8d90.png)
+
+
+有趣的是，*S. cerevisiae*酵母的I号染色体是迄今为止已知的最小的天然存在的功能性真核染色体，只有大约231 kbp左右，其前后约25%的区域转录活性较低，两端被端粒覆盖[^1]。对该染色体的泛基因组分析有助于了解染色体的组装模式，即哪些区域允许发生较大变异，哪些区域不允许；这有助于我们进一步了解人工染色体的设计原理。 
+
+[^1]: Bussey H, Kaback DB, Zhong W, et al. The nucleotide sequence of chromosome I from Saccharomyces cerevisiae. Proc Natl Acad Sci U S A. 1995;92(9):3809-3813. doi:10.1073/pnas.92.9.3809
+
+
+<br>
+<br>
+<br>
 
 ### IV. Calculate pangenome openness with *panacus*
 
@@ -240,13 +257,13 @@ panacus-visualize \
 
 ```
 
-![FIG.7](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_0.png "Fig.7 panacus_1")
+![FIG.8](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/chrI_panacus_0_0.png "Fig.7 panacus_1")
 
-![FIG.8](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_1.png "Fig.8 panacus_2")
+![FIG.9](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/chrI_panacus_0_1.png "Fig.8 panacus_2")
 
-![FIG.9](https://github.com/370126/DingHub/blob/main/FIGS/pan_genome/chrI_panacus_0_2.png "Fig.9 panacus_3")
+![FIG.10](https://github.com/370126/DingHub/blob/main/coursework/Advanced%20Bioinformatics%20(unfinished)/FIGS/pan_genome/chrI_panacus_0_2.png "Fig.9 panacus_3")
 
-从**Fig.9**可以看出，随着基因组的添加，泛基因组的图结点增加数越来越少。然而，从**Fig.8**曲线拟合得到的$\gamma=0.216$并不是一个很小的数值；这可能是因为不同菌株间差异较大，使得该泛基因组闭合程度尚不很高。
+从**Fig.10**可以看出，随着基因组的添加，泛基因组的图结点增加数越来越少。然而，从**Fig.9**曲线拟合得到的$\gamma=0.216$并不是一个很小的数值；这可能是因为不同菌株间差异较大，使得该泛基因组闭合程度尚不很高。
 
 ---
 
