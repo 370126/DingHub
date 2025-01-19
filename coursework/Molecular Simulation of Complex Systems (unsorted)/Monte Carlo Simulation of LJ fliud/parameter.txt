@@ -1,0 +1,9 @@
+1.2   # Temperature
+500     # number of atoms
+0.1     # density
+2.0     # LJ cut-off distance
+10000   # Monte Carlo relaxation steps
+20000   # Monte Carlo production steps
+10     # Monte Carlo sampling steps
+
+
